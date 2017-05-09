@@ -12,15 +12,20 @@
 \contentsline {section}{\numberline {3.3}Tercera secci\IeC {\'o}n de este cap\IeC {\'\i }tulo}{4}
 \contentsline {chapter}{\numberline {4}Objetivos y fases}{5}
 \contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{6}
-\contentsline {chapter}{\numberline {6}Conclusiones y l\IeC {\'\i }neas futuras }{7}
-\contentsline {chapter}{\numberline {7}Summary and Conclusions }{8}
-\contentsline {section}{\numberline {7.1}First Section}{8}
-\contentsline {chapter}{\numberline {8}Presupuesto}{9}
-\contentsline {section}{\numberline {8.1}Secci\IeC {\'o}n Uno}{9}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{10}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{10}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{10}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{11}
-\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{11}
-\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{11}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{11}
+\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del nucleo de la aplicaci\IeC {\'o}n}{6}
+\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{6}
+\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{6}
+\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{6}
+\contentsline {chapter}{\numberline {6}Ampliacion de funcionalidades }{7}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{9}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions }{10}
+\contentsline {section}{\numberline {8.1}First Section}{10}
+\contentsline {chapter}{\numberline {9}Presupuesto}{11}
+\contentsline {section}{\numberline {9.1}Secci\IeC {\'o}n Uno}{11}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{12}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{12}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{12}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{13}
+\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{13}
+\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{13}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{13}

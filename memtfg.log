@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  5 MAY 2017 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  9 MAY 2017 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,7 +396,11 @@ Package babel Info: Making . an active character on input line 464.
 Package babel Info: Making " an active character on input line 495.
 Package babel Info: Making < an active character on input line 581.
 Package babel Info: Making > an active character on input line 582.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 ) (./algorithm.sty
 Package: algorithm 
@@ -406,9 +410,9 @@ Document Style `algorithm' - floating environment
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
 \float@exts=\toks18
-\float@box=\box26
+\float@box=\box27
 \@float@everytoks=\toks19
-\@floatcapt=\box27
+\@floatcapt=\box28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -471,21 +475,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \msafam=\mathgroup4
 \msbfam=\mathgroup5
 \eufmfam=\mathgroup6
-) (./memtfg.aux)
+) (./memtfg.aux
+
+LaTeX Warning: Label `5:sec3' multiply defined.
+
+)
 \openout1 = `memtfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -527,35 +535,35 @@ File: images/logo_vertical.eps Graphic file (type eps)
 ] [2] [3]
 File: images/by_88x31.eps Graphic file (type eps)
  <images/by_88x31.eps>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 212.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 213.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <20.74> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 212.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 213.
  [4] [1] [1]
 (./memtfg.toc
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 3.
-)
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `memtfg.toc'.
 
- [1
-
-] (./memtfg.lof)
+ [2] (./memtfg.lof)
 \tf@lof=\write4
 \openout4 = `memtfg.lof'.
 
- [2
+ [3
 
 ] (./memtfg.lot)
 \tf@lot=\write5
 \openout5 = `memtfg.lot'.
 
- [3
+ [4
 
 ]
 Cap\'{\i }tulo 1.
@@ -583,38 +591,51 @@ Cap\'{\i }tulo 4.
 
 ]
 Cap\'{\i }tulo 5.
-(./cap5.tex) [6
+(./cap5.tex
+Overfull \hbox (7.79303pt too wide) in paragraph at lines 27--27
+[]\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
+ []
+
+) [6
 
 ]
 Cap\'{\i }tulo 6.
-(./cap6.tex) [7
+(./cap6.tex [7
 
-]
+]) [8]
 Cap\'{\i }tulo 7.
-(./cap7.tex) [8
+(./cap7.tex) [9
 
 ]
 Cap\'{\i }tulo 8.
-(./cap8.tex (./tables/table.tex)) [9
+(./cap8.tex) [10
+
+]
+Cap\'{\i }tulo 9.
+(./cap9.tex (./tables/presupuesto.tex)) [11
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [10
+(./apendice1.tex) [12
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [11
+(./apendice2.tex) (./memtfg.bbl [13
 
-]) [12
+]) [14
 
-] (./memtfg.aux) ) 
+] (./memtfg.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2597 strings out of 494954
- 33422 string characters out of 6181004
- 99390 words of memory out of 5000000
- 5801 multiletter control sequences out of 15000+600000
- 11811 words of font info for 44 fonts, out of 8000000 for 9000
+ 2667 strings out of 494954
+ 34386 string characters out of 6181004
+ 99808 words of memory out of 5000000
+ 5862 multiletter control sequences out of 15000+600000
+ 11928 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,9n,23p,209b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,23p,388b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (21 pages, 17884 bytes).
+Output written on memtfg.dvi (24 pages, 23660 bytes).

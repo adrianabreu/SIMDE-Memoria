@@ -1,10 +1,33 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter 6: Conclusiones y Trabajos Futuros 
+% Chapter 6: Ampliación de funcionalidades
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Este capítulo es obligatorio.
-Toda memoria de Trabajo de Fin de Grado debe incluir unas conclusiones y unas 
-líneas de trabajo futuro 
+Existen cuatro extras principales que se han desarrollado en este trabajo de fin de grado. 
+
+\begin{enumerate}
+\item  Documentación
+
+El primero de ellos es la recuperación de la documentación. En su proyecto original el profesor Iván Castilla elaboró una extensa documentación sobre SIMDE que contenía consejos sobre el desarrollo de aplicaciones para las distintas máquinas y no solo eso, sino que además explicaba el funcionamiento de las máquinas.
+    Por desgracia, esta documentación fue realizada en formato .HLP, un formato abandonado en Windows Vista. Es por eso, que utilizando herramientas de extracción, se pudieron recuperar los textos originales de parte del profesor.
+    Ahora, para integrar esta documentación en la aplicación web lo mejor era hacer un sistema web también. Por ello se ha migrado la documentación a un formato muchísimo más mantenible utilizando un generador de contenido estático basado en NodeJS (Hexo) y un tema apropiado, se ha conseguido que la documentación esté integrada de nuevo.
+
+    IMAGEN DOCUMENTACIÓN
+
+\item  Parseador
+    El siguiente extra es la mejora del parseador. Una de las cosas más molestas de la versión original de SIMDE es que ante un error de código sólo muestra el mensaje “error”. 
+    Ahora, tras una serie de modificaciones en el parseados de código, se muestran los siguientes errores:
+Operando erróneo
+Opcode desconocido
+Etiqueta repetida
+
+IMAGENES ERROR
+
+    Además, se muestra la línea del error. Esto era muy importante ya que en varias ocasiones la frustración de buscar en un código largo los errores   veces distraía a los usuarios de la finalidad del SIMDE; que no es otra que comprender y visualizar el funcionamiento de la máquina Superescalar.
+
+\item Batch Mode
+
+\item Histórico
+\end{enumerate}
 

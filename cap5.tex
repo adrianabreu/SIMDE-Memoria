@@ -4,7 +4,28 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Este capítulo es obligatorio.
-Toda memoria de Trabajo de Fin de Grado debe incluir unas conclusiones y unas 
-líneas de trabajo futuro 
+\section{Migración del nucleo de la aplicación}
+\label{5:sec1} 
 
+   El núcleo de la aplicación se basa en el uso del generador de analizadores léxicos FLEX para parsear un conjunto de instrucciones similar al MIPS IV. Para realizar el proceso de migración he tenido que comprender primero el funcionamiento de los analizadores léxicos.
+
+   Aislando la implementación original y haciendo uso de una librería desarrollada para Javascript de Lex, se pudo conseguir en una escasa cantidad de tiempo tener en funcionamiento el código en Javascript.
+
+   Además, era imprescindible migrar las estructuras básicas que se crean cuando se carga el código, es decir: Las unidades funcionales y los bloques básicos y sucesores.
+
+   En este punto ya se tomó una de las decisiones más importantes para el desarrollo. Se decidió utilizar Typescript.
+
+%------------------------------------------------------------------------------
+\section{Migración de la máquina superescalar}
+\label{5:sec2} 
+
+%------------------------------------------------------------------------------
+\section{Desarrollo de la interfaz}
+\label{5:sec3} 
+
+%------------------------------------------------------------------------------
+\section{Integración interfaz - máquina superescalar}
+\label{5:sec3} 
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
