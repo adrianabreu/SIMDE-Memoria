@@ -4,20 +4,46 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{Migración del nucleo de la aplicación}
+\section{Migración del núcleo de la aplicación}
 \label{5:sec1} 
 
-   El núcleo de la aplicación se basa en el uso del generador de analizadores léxicos FLEX para parsear un conjunto de instrucciones similar al MIPS IV. Para realizar el proceso de migración he tenido que comprender primero el funcionamiento de los analizadores léxicos.
+El núcleo de la aplicación se basa en el uso del generador de analizadores léxicos FLEX para parsear
+un conjunto de instrucciones similar al MIPS IV. Para realizar el proceso de migración he tenido que comprender primero el funcionamiento de los analizadores léxicos.
 
-   Aislando la implementación original y haciendo uso de una librería desarrollada para Javascript de Lex, se pudo conseguir en una escasa cantidad de tiempo tener en funcionamiento el código en Javascript.
+Aislando la implementación original y haciendo uso de una librería desarrollada para Javascript de Lex,
+se pudo conseguir en una escasa cantidad de tiempo tener en funcionamiento el código en Javascript.
 
-   Además, era imprescindible migrar las estructuras básicas que se crean cuando se carga el código, es decir: Las unidades funcionales y los bloques básicos y sucesores.
+Además, era imprescindible migrar las estructuras básicas que se crean cuando se carga el código, 
+es decir: Las unidades funcionales y los bloques básicos y sucesores.
 
-   En este punto ya se tomó una de las decisiones más importantes para el desarrollo. Se decidió utilizar Typescript.
+En este punto ya se tomó una de las decisiones más importantes para el desarrollo. 
+Se decidió utilizar Typescript.
+
+Typescript:
+
+Podemos considerar a Typescript una pieza clave en el desarrollo del proyecto. A pesar de las distintas comodidades que han ido apareciendo en el mundo de Javascript con los distintos estándares,  (es2015, es2016). Sigue siendo complicado trabajar con programación orientada a objetos de forma natural en Javascript.  
+
+Typescript es un lenguaje libre y de código abierto desarrollado por Microsoft que actúa como un superconjunto de javascript, y donde una de sus características más destacables es la capacidad de añadir tipado estático.
+
+Este tipado no se refleja en el código final, de hecho una interfaz, por ejemplo, añade 0 sobrecarga en el código final. Pero si que es interesante por las capacidades de  autocompletar (a través de Microsoft Intellisense)  que añade. Typescript se puede transpilar directamente a código javascript es5, el cuál es el estándar actual en todos los navegadores.    
+
+Si tuviéramos que barajar una posible alternativa, sin duda la más destacada sería Flow, un comprobador de tipos para javascript desarrollado por Facebook. 
+
+Pero existen múltiples razones para que haya escogido typescript sobre Flow:
+\begin{enumerate}
+\item Flow no está siendo parte de un proyecto de gran envergadura, se suponía que se introduciría en el desarrollo de react. Sin embargo no ha sido así.
+
+\item Typescript es la opción de defacto para Angular 2, ha ido ganando mucho entusiasmo por parte de la comunidad y tiene un gran soporte.
+
+\item Tengo cierta experiencia con Typescript.
+
+\end{enumerate}
 
 %------------------------------------------------------------------------------
 \section{Migración de la máquina superescalar}
 \label{5:sec2} 
+
+
 
 %------------------------------------------------------------------------------
 \section{Desarrollo de la interfaz}

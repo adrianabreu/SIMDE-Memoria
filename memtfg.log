@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  9 MAY 2017 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  9 MAY 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,38 +591,38 @@ Cap\'{\i }tulo 4.
 
 ]
 Cap\'{\i }tulo 5.
-(./cap5.tex
-Overfull \hbox (7.79303pt too wide) in paragraph at lines 27--27
+(./cap5.tex [6
+
+]
+Overfull \hbox (7.79303pt too wide) in paragraph at lines 51--51
 []\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
  []
 
-) [6
-
-]
+) [7]
 Cap\'{\i }tulo 6.
-(./cap6.tex [7
+(./cap6.tex [8
 
-]) [8]
+]) [9]
 Cap\'{\i }tulo 7.
-(./cap7.tex) [9
+(./cap7.tex) [10
 
 ]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [10
+(./cap8.tex) [11
 
 ]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [11
+(./cap9.tex (./tables/presupuesto.tex)) [12
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [12
+(./apendice1.tex) [13
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [13
+(./apendice2.tex) (./memtfg.bbl [14
 
-]) [14
+]) [15
 
 ] (./memtfg.aux)
 
@@ -630,12 +630,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2667 strings out of 494954
- 34386 string characters out of 6181004
- 99808 words of memory out of 5000000
- 5862 multiletter control sequences out of 15000+600000
+ 2680 strings out of 494954
+ 34527 string characters out of 6181004
+ 99871 words of memory out of 5000000
+ 5875 multiletter control sequences out of 15000+600000
  11928 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,10n,23p,388b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,23p,406b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (24 pages, 23660 bytes).
+Output written on memtfg.dvi (25 pages, 30988 bytes).

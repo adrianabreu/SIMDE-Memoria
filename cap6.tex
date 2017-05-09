@@ -4,30 +4,55 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Existen cuatro extras principales que se han desarrollado en este trabajo de fin de grado. 
+En este proyecto de fin de grado se han realizado cuatro ampliaciones de las funcionales. 
 
-\begin{enumerate}
-\item  Documentación
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Documentación}
+\label{6:sec1}
 
-El primero de ellos es la recuperación de la documentación. En su proyecto original el profesor Iván Castilla elaboró una extensa documentación sobre SIMDE que contenía consejos sobre el desarrollo de aplicaciones para las distintas máquinas y no solo eso, sino que además explicaba el funcionamiento de las máquinas.
-    Por desgracia, esta documentación fue realizada en formato .HLP, un formato abandonado en Windows Vista. Es por eso, que utilizando herramientas de extracción, se pudieron recuperar los textos originales de parte del profesor.
-    Ahora, para integrar esta documentación en la aplicación web lo mejor era hacer un sistema web también. Por ello se ha migrado la documentación a un formato muchísimo más mantenible utilizando un generador de contenido estático basado en NodeJS (Hexo) y un tema apropiado, se ha conseguido que la documentación esté integrada de nuevo.
+El primero de ellos es recuperación de la documentación. En su proyecto original el profesor Iván Castilla elaboró una extensa documentación sobre SIMDE que contenía consejos sobre el desarrollo de aplicaciones para las distintas máquinas y no solo eso, sino que además explicaba el funcionamiento de las máquinas.
+
+Por desgracia, esta documentación fue realizada en formato .HLP, un formato de windows que quedó en desuso desde Windows Vista. Es por eso, que utilizando herramientas de extracción, se pudieron recuperar los textos originales de parte del profesor.
+
+Para integrar integrar esta documentación en la aplicación web lo mejor era hacer un sistema web también. Por ello se ha migrado la documentación a un formato muchísimo más mantenible como es markdown y utilizando un generador de contenido estático basado en NodeJS (Hexo) y un tema apropiado, se ha conseguido que la documentación esté integrada de nuevo.
 
     IMAGEN DOCUMENTACIÓN
 
-\item  Parseador
-    El siguiente extra es la mejora del parseador. Una de las cosas más molestas de la versión original de SIMDE es que ante un error de código sólo muestra el mensaje “error”. 
-    Ahora, tras una serie de modificaciones en el parseados de código, se muestran los siguientes errores:
-Operando erróneo
-Opcode desconocido
-Etiqueta repetida
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Parseador}
+\label{6:sec2}
+
+Una de las características más deseadas por parte de los usuarios de SIMDE (entre los que yo mismo me puedo incluir), es un sistema de errores más descriptivo. 
+
+Por desgracia, en la versión original de SIMDE solo se muestra el mensaje "Error".
+
+Ahora, tras una serie de modificaciones en el parseados de código, se muestran los siguientes errores:
+
+\begin{enumerate}
+\item Operando erróneo
+\item Opcode desconocido
+\item Etiqueta repetida
+\end{enumerate}
+
+Además, se muestra la línea del error. Esto resulta tremendamente importante, ya que una de las aplicaciones de SIMDE requiere realizar mejoras en el rendimiento
+de código haciendo uso de técnicas como el desenrollado de bucleas, dando lugar a códigos de considerable tamaño.
 
 IMAGENES ERROR
 
-    Además, se muestra la línea del error. Esto era muy importante ya que en varias ocasiones la frustración de buscar en un código largo los errores   veces distraía a los usuarios de la finalidad del SIMDE; que no es otra que comprender y visualizar el funcionamiento de la máquina Superescalar.
 
-\item Batch Mode
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Batch mode}
+\label{6:sec3}
 
-\item Histórico
-\end{enumerate}
+Otra característica que habría sido resultado muy deseable por mi parte y por parte de mis compañeros, es no tener el limite de velocidad que tiene la versión original.
+
+En mi caso, la cantidad media de ciclos de los ejercicios que se me propusieron superaba los 500 ciclos, haciendo un tiempo medio de ejecución de 2 - 3 minutos, lo cual sumado a 
+la media de pruebas, a la depuración de errores, y a las distintas optimizaciones, alargaba de forma innecesaria el desarrollo de los ejercicios.
+
+Es por eso que ahora, cuando el campo de velocidad está en 0, se ejecuta la simulación a velocidad máxima, y solo se refresca la interfaz cuando termina la ejecución. Ahorrando así 
+recursos. 
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Histórico}
+\label{6:sec4}
 
