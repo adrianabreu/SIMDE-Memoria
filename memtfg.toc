@@ -1,37 +1,36 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}
-\contentsline {section}{\numberline {1.1}Secci\IeC {\'o}n Uno}{1}
-\contentsline {section}{\numberline {1.2}Secci\IeC {\'o}n Dos}{1}
-\contentsline {section}{\numberline {1.3}Secci\IeC {\'o}n Tres}{1}
-\contentsline {section}{\numberline {1.4}Secci\IeC {\'o}n Cuatro}{1}
+\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Qu\IeC {\'e} es SIMDE?}{1}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n para el trabajo}{1}
+\contentsline {section}{\numberline {1.3}Breve introducci\IeC {\'o}n a los fundamentos te\IeC {\'o}ricos}{1}
 \contentsline {chapter}{\numberline {2}Antecedentes}{3}
 \contentsline {section}{\numberline {2.1}Primera secci\IeC {\'o}n de otro cap\IeC {\'\i }tulo}{3}
-\contentsline {chapter}{\numberline {3}Estado del arte}{4}
-\contentsline {section}{\numberline {3.1}Primera secci\IeC {\'o}n de este cap\IeC {\'\i }tulo}{4}
-\contentsline {section}{\numberline {3.2}Segunda secci\IeC {\'o}n de este cap\IeC {\'\i }tulo}{4}
-\contentsline {section}{\numberline {3.3}Tercera secci\IeC {\'o}n de este cap\IeC {\'\i }tulo}{4}
-\contentsline {chapter}{\numberline {4}Objetivos y fases}{5}
-\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{6}
-\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{6}
+\contentsline {chapter}{\numberline {3}Tecnolog\IeC {\'\i }as}{4}
+\contentsline {section}{\numberline {3.1}Typescript}{4}
+\contentsline {section}{\numberline {3.2}React}{5}
+\contentsline {section}{\numberline {3.3}Webpack}{5}
+\contentsline {chapter}{\numberline {4}Objetivos y fases}{6}
+\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{7}
+\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{7}
 \contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{7}
 \contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{7}
 \contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{7}
-\contentsline {chapter}{\numberline {6}Ampliacion de funcionalidades }{8}
+\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{8}
 \contentsline {section}{\numberline {6.1}Documentaci\IeC {\'o}n}{8}
-\contentsline {section}{\numberline {6.2}Parseador}{8}
-\contentsline {section}{\numberline {6.3}Batch mode}{9}
-\contentsline {section}{\numberline {6.4}Hist\IeC {\'o}rico}{9}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{10}
-\contentsline {section}{\numberline {7.1}Conclusiones}{10}
-\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{10}
-\contentsline {chapter}{\numberline {8}Summary and Conclusions }{11}
-\contentsline {section}{\numberline {8.1}First Section}{11}
-\contentsline {chapter}{\numberline {9}Presupuesto}{12}
-\contentsline {section}{\numberline {9.1}Secci\IeC {\'o}n Uno}{12}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{13}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{13}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{13}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{14}
-\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{14}
-\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{14}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}
+\contentsline {section}{\numberline {6.2}Parseador}{9}
+\contentsline {section}{\numberline {6.3}Modo de ejecuci\IeC {\'o}n en lotes}{9}
+\contentsline {section}{\numberline {6.4}Hist\IeC {\'o}rico}{10}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{11}
+\contentsline {section}{\numberline {7.1}Conclusiones}{11}
+\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{11}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions }{12}
+\contentsline {section}{\numberline {8.1}First Section}{12}
+\contentsline {chapter}{\numberline {9}Presupuesto}{13}
+\contentsline {section}{\numberline {9.1}Secci\IeC {\'o}n Uno}{13}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{14}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{14}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{14}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{15}
+\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{15}
+\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{15}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{15}
