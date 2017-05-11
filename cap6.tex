@@ -7,53 +7,23 @@
 En este proyecto de fin de grado se han realizado cuatro ampliaciones sobre las funcionalidades originales 
 del simulador. 
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Documentación}
-\label{6:sec1}
-
-La primer ampliación ha sido la incorporación de documentación del programa. Aunque el
-término de ampliación no es del todo correcto, puesto que en el proyecto original el autor
-elaboró una extensa documentación, esta quedó inaccesible.
-
-\bigskip
-La documentación fue realizada en formato .HLP, un formato de ayuda de Windows que quedó
-en desuso en Windows Vista. Y esta documentación era realmente interesante, pues no sólo
-contenía datos sobre la palicación, sino que incluía consejos para el desarrollo de 
-aplicaciones para las distintas máquinas y además explicaba el funcionamiento de las máquinas.
-
-\bigskip
-Para recuperar esta documentación se ha utilizado una herramientas de extracción denominada
-Help Decompiler. Esta herramienta de línea de comandos procesa los ficheros de ayuda de
-Windows .HLP y genera un fichero de texto enriquecido con la documentación y en una carpeta
-externa el contenido multimedia que incluye la misma.
-
-\bigskip
-Para poder llevar a cabo la tarea de la documentación de forma paralela se consideró que lo mejor era
-hacer un proyecto aparte. Resultaba evidente que la documentación de una aplicación web debía de estar en la
-web. 
-
-\bigskip
-Tras barajar algunas opciones, se optó por mover la documentación a un formato mantenible como 
-es markdown. Y partiendo de esto se utilizó un generador de contenido estático basado en NodeJS (Hexo)
-para convertir este markdown en web. Se desarrollo un tema simple y personalizado para la ayuda y se 
-añadió la capacidad de cambiar entre inglés y español.
-
-\bigskip
-Este es el estado actual de la aplicación de la documentación.
-
-    IMAGEN DOCUMENTACIÓN
-
-\bigskip
-Se puede acceder a ella desde el menú Ayuda > Documentación en la aplicación del SIMDE.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Parseador}
-\label{6:sec2}
+\label{6:sec1}
 
 Una de las características más deseadas por parte de los usuarios de SIMDE 
 (entre los que yo mismo me puedo incluir), es un sistema de errores más descriptivo. 
 
-Por desgracia, en la versión original de SIMDE solo se muestra el mensaje "Error".
+Por desgracia, en la versión original de SIMDE sólo se mostraba una notificación que indicaba
+que el código cargado contenía errores.
+
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{images/cap6/errorsimde.eps}
+\caption{Notificacion de error original SIMDE}
+\end{center}
+\end{figure}
 
 Ahora, tras una serie de modificaciones en el parseados de código, se muestran los siguientes errores:
 
@@ -65,15 +35,20 @@ Ahora, tras una serie de modificaciones en el parseados de código, se muestran 
 
 Además, se muestra la línea del error. Esto resulta tremendamente importante, 
 ya que una de las aplicaciones de SIMDE requiere realizar mejoras en el rendimiento
-de código haciendo uso de técnicas como el desenrollado de bucleas, 
+de código haciendo uso de técnicas como el desenrollado de bucles, 
 dando lugar a códigos de considerable tamaño.
 
-IMAGENES ERROR
 
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{images/cap6/nuevoerrorsimde.eps}
+\caption{Ejemplos de errores en la nueva versión de simde}
+\end{center}
+\end{figure}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Modo de ejecución en lotes}
-\label{6:sec3}
+\label{6:sec2}
 
 Otra característica que habría sido resultado muy deseable por mi parte y por parte de mis compañeros, 
 es no tener el limite de velocidad que tiene la versión original.
@@ -89,6 +64,30 @@ recursos.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Histórico}
-\label{6:sec4}
+\label{6:sec3}
 
-Por costumbre, en las primeras clases de SIMDE se utilizaba de forma 
+Otra característica que resultaba necesaria en el simulador y que se añoraba sobre todo en el primer
+contacto era la posibilidad de ir hacia atrás.
+
+\bigskip
+En un principio, se esperaba utilizar algún sistema gestor de estados y permitir el time traveling. 
+Por desgracia debido al volumen de este trabajo de fin de grado decidió no utilizarse este tipo de 
+soluciones.
+
+\bigskip
+Sin embargo, la idea del \textit{time traveling} resultaba más que deseable, por lo que se implementó
+de una forma un tanto rústica. Para permitir emular este comportamiento y mantener la fidelidad de 
+la ejecución (recordemos que existen una serie de operaciones que son sujetas a un porcentaje de fallos
+aleatorios), lo que se hizo fue acumular el estado visual de la máquina, el modelo en sí con el 
+que se dibujaban los componentes.
+
+\bigskip
+De tal forma, cuando un usuario entraba en este modo timetraveling recorre un array de estados de la 
+interfaz, imprimiendo la información almacenada, sin afectar al comportamiento de la máquina, pero 
+emulando ese \textit{time traveling} de cara al usuario.
+
+\bigskip
+Por tanto, se considera que un usuario que retroceda X pasos, deberá avanzar esos X pasos para continuar
+la ejecución (o en su defecto, pulsar el botón \textbf{Play}). Esto es así porque aunque como repito, se 
+trata de una característica enormemente deseada en la primera toma de contacto del simulador, no se trata
+de una característica de la que se espere que el usuario abuse.

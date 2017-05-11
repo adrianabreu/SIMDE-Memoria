@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  11 MAY 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  11 MAY 2017 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,14 +475,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \msafam=\mathgroup4
 \msbfam=\mathgroup5
 \eufmfam=\mathgroup6
-) (./memtfg.aux
-
-LaTeX Warning: Label `fig:ArbolBinario' multiply defined.
-
-
-LaTeX Warning: Label `5:sec3' multiply defined.
-
-)
+) (./memtfg.aux)
 \openout1 = `memtfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -570,11 +563,9 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 ]
 Cap\'{\i }tulo 1.
-(./cap1.tex
-File: images/arbolbinario.eps Graphic file (type eps)
- <images/arbolbinario.eps>) [1
+(./cap1.tex [1
 
-] [2]
+]) [2]
 Cap\'{\i }tulo 2.
 (./cap2.tex
 Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--10
@@ -604,48 +595,77 @@ Cap\'{\i }tulo 5.
 (./cap5.tex [9
 
 ]
-Overfull \hbox (7.79303pt too wide) in paragraph at lines 51--51
+Overfull \hbox (7.79303pt too wide) in paragraph at lines 60--60
 []\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
  []
 
-) [10]
+[10]) [11]
 Cap\'{\i }tulo 6.
-(./cap6.tex [11
-
-]) [12] [13]
-Cap\'{\i }tulo 7.
-(./cap7.tex) [14
+(./cap6.tex
+File: images/cap6/errorsimde.eps Graphic file (type eps)
+ <images/cap6/errorsimde.eps> [12
 
 ]
+
+LaTeX Warning: File `images/cap6/nuevoerrorsimde.eps' not found on input line 4
+4.
+
+
+! LaTeX Error: File `images/cap6/nuevoerrorsimde.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...extwidth]{images/cap6/nuevoerrorsimde.eps}
+                                                  
+? 
+
+! LaTeX Error: Cannot determine size of graphic in images/cap6/nuevoerrorsimde.
+eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...extwidth]{images/cap6/nuevoerrorsimde.eps}
+                                                  
+? 
+File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
+<images/cap6/nuevoerrorsimde.eps> [13]) [14]
+Cap\'{\i }tulo 7.
+(./cap7.tex [15
+
+]) [16]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [15
+(./cap8.tex) [17
 
 ]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [16
+(./cap9.tex (./tables/presupuesto.tex)) [18
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [17
+(./apendice1.tex) [19
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [18
+(./apendice2.tex) (./memtfg.bbl [20
 
-]) [19
+]) [21
 
 ] (./memtfg.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  2690 strings out of 494954
- 34675 string characters out of 6181004
- 100887 words of memory out of 5000000
- 5883 multiletter control sequences out of 15000+600000
+ 34686 string characters out of 6181004
+ 100889 words of memory out of 5000000
+ 5881 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,10n,23p,254b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (29 pages, 44612 bytes).
+Output written on memtfg.dvi (31 pages, 55340 bytes).

@@ -6,30 +6,55 @@
 \section{Introducción}
 \label{1:sec:1}
 
+En el área de arquitectura de computadores, se trabaja muchas veces sobre fundamentos
+históricos que resultan difíciles de comprender debido a la gran abstracción que suponen
+para el alumno.
+
+\bigskip
+Por ejemplo, en el caso del paralelismo a nivel de instrucción se habla de unas 
+estructuras intermedias que permiten.
 
 %---------------------------------------------------------------------------------
 \section{Paralelismo a nivel de instrucción}
 \label{1:sec:2}
 
+El paralelismo a nivel de instrucción 
+
 \subsection{Superescalar}
-Como alumno del itinerario de Ingeniería de Computadores he sido usuario del SIMDE.
-Y es por ello que soy consciente de las mejoras
+
 
 \subsection{VLIW}
-Lalalala
+
+Aunque no se desea entrar mucho en detalle en este aspecto, puesto que este trabajo de 
+fin de grado se centra en la máquina superescalar, debe nombrarse la otra gran 
+representante del paralelismo a nivel de instruccin, las máquinas \textit{Very Long Instruction Word}.
+
+\bigskip
+Mientras que las máquinas Superescalares hacen uso de un hardware complejo para llevar
+a cabo el paralelismo a nivel de instrucción, las máquinas VLIW toman una vía opuesta.
+
+\bigskip
+El hardware se mantiene relativamente simple, y es el compilador, el que se encarga
+de realizar las operaciones necesarias para permitir que se aproveche al máximo el 
+paralelismo.
+
 %---------------------------------------------------------------------------------
 \section{Motivación para el trabajo}
 \label{1:sec:3}
 
-La aplicación SIMDe como se ha mencionado previamente 
+Como se ha mencionado, el uso de un simulador para apoyar la docencia de esta área
+de Arquitecutra de Computadores resultaba un campo realmente interesante. De hecho,
+esta herramienta ya existe. El actual profesor de la Universidad de La Laguna 
+Iván Castilla desarrolló un simulador en C++ con este propósito.
 
-%---------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{images/arbolbinario.eps}
-\caption{Ejemplo}
-\label{fig:ArbolBinario}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
+\bigskip
+Este simulador se ha estado utilizando como un complemento más de la docencia, pero
+con el paso del tiempo, ha quedado obsoleto. No tanto por su funcionalidad, puesto
+que los fundamentos teóricos sobre los que se basa no han cambiado con el tiempo, como 
+por su aspecto visual y su accesibilidad.
+
+\bigskip
+Es por esto, se ha querido recuperar esta herramienta para continuar con su desarrollo 
+y ampliación y este trabajo de fin de grado se centra en migrar esta aplicación a versión 
+web de tal forma que sirva como base para los futuros proyectos.
 
