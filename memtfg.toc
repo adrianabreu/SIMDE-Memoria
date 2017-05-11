@@ -1,36 +1,53 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}
-\contentsline {section}{\numberline {1.1}\IeC {\textquestiondown }Qu\IeC {\'e} es SIMDE?}{1}
-\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n para el trabajo}{1}
-\contentsline {section}{\numberline {1.3}Breve introducci\IeC {\'o}n a los fundamentos te\IeC {\'o}ricos}{1}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{1}
+\contentsline {section}{\numberline {1.2}Paralelismo a nivel de instrucci\IeC {\'o}n}{1}
+\contentsline {subsection}{\numberline {1.2.1}Superescalar}{1}
+\contentsline {subsection}{\numberline {1.2.2}VLIW}{1}
+\contentsline {section}{\numberline {1.3}Motivaci\IeC {\'o}n para el trabajo}{1}
 \contentsline {chapter}{\numberline {2}Antecedentes}{3}
-\contentsline {section}{\numberline {2.1}Primera secci\IeC {\'o}n de otro cap\IeC {\'\i }tulo}{3}
+\contentsline {section}{\numberline {2.1}SIMDE}{3}
+\contentsline {section}{\numberline {2.2}Otros simuladores}{3}
 \contentsline {chapter}{\numberline {3}Tecnolog\IeC {\'\i }as}{4}
-\contentsline {section}{\numberline {3.1}Typescript}{4}
-\contentsline {section}{\numberline {3.2}React}{5}
-\contentsline {section}{\numberline {3.3}Webpack}{5}
-\contentsline {chapter}{\numberline {4}Objetivos y fases}{6}
-\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{7}
-\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{7}
-\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{7}
-\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{7}
-\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{7}
-\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{8}
-\contentsline {section}{\numberline {6.1}Documentaci\IeC {\'o}n}{8}
-\contentsline {section}{\numberline {6.2}Parseador}{9}
-\contentsline {section}{\numberline {6.3}Modo de ejecuci\IeC {\'o}n en lotes}{9}
-\contentsline {section}{\numberline {6.4}Hist\IeC {\'o}rico}{10}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{11}
-\contentsline {section}{\numberline {7.1}Conclusiones}{11}
-\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{11}
-\contentsline {chapter}{\numberline {8}Summary and Conclusions }{12}
-\contentsline {section}{\numberline {8.1}First Section}{12}
-\contentsline {chapter}{\numberline {9}Presupuesto}{13}
-\contentsline {section}{\numberline {9.1}Secci\IeC {\'o}n Uno}{13}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{14}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{14}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{14}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{15}
-\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{15}
-\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{15}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{15}
+\contentsline {section}{\numberline {3.1}Lenguaje para la l\IeC {\'o}gica de la aplicaci\IeC {\'o}n}{4}
+\contentsline {subsection}{\numberline {3.1.1}Coffescript}{4}
+\contentsline {subsection}{\numberline {3.1.2}Dart}{4}
+\contentsline {subsection}{\numberline {3.1.3}Typescript}{4}
+\contentsline {section}{\numberline {3.2}Tecnolog\IeC {\'\i }a para la integraci\IeC {\'o}n modelo vista}{5}
+\contentsline {subsection}{\numberline {3.2.1}Webcomponents}{5}
+\contentsline {subsection}{\numberline {3.2.2}Polymer}{6}
+\contentsline {subsection}{\numberline {3.2.3}React}{6}
+\contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }a para hacer la build}{6}
+\contentsline {subsection}{\numberline {3.3.1}Browserify}{6}
+\contentsline {subsection}{\numberline {3.3.2}Gulp/Grunt}{6}
+\contentsline {subsection}{\numberline {3.3.3}Webpack}{6}
+\contentsline {section}{\numberline {3.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{7}
+\contentsline {subsection}{\numberline {3.4.1}Generadores de contenido est\IeC {\'a}tico}{7}
+\contentsline {subsection}{\numberline {3.4.2}Hexo}{7}
+\contentsline {chapter}{\numberline {4}Objetivos y fases}{8}
+\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{9}
+\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{9}
+\contentsline {subsection}{\numberline {5.1.1}Analizadores l\IeC {\'e}xicos}{9}
+\contentsline {subsection}{\numberline {5.1.2}Lex}{9}
+\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{9}
+\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{10}
+\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{10}
+\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{11}
+\contentsline {section}{\numberline {6.1}Documentaci\IeC {\'o}n}{11}
+\contentsline {section}{\numberline {6.2}Parseador}{12}
+\contentsline {section}{\numberline {6.3}Modo de ejecuci\IeC {\'o}n en lotes}{12}
+\contentsline {section}{\numberline {6.4}Hist\IeC {\'o}rico}{13}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{14}
+\contentsline {section}{\numberline {7.1}Conclusiones}{14}
+\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{14}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions }{15}
+\contentsline {section}{\numberline {8.1}First Section}{15}
+\contentsline {chapter}{\numberline {9}Presupuesto}{16}
+\contentsline {section}{\numberline {9.1}Secci\IeC {\'o}n Uno}{16}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{17}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{17}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{17}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{18}
+\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{18}
+\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{18}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{18}

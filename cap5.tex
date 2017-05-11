@@ -7,12 +7,16 @@
 \section{Migración del núcleo de la aplicación}
 \label{5:sec1} 
 
-El núcleo de la aplicación se basa en el uso del generador de analizadores léxicos FLEX para parsear
-un conjunto de instrucciones similar al MIPS IV. Para realizar el proceso de migración he tenido que comprender primero el funcionamiento de los analizadores léxicos.
+\subsection{Analizadores léxicos}
+El núcleo de la aplicación se basa en el uso del generador de analizadores 
+léxicos FLEX para parsear un conjunto de instrucciones similar al MIPS IV. 
+Para realizar el proceso de migración he tenido que comprender primero el 
+funcionamiento de los analizadores léxicos.
 
 Aislando la implementación original y haciendo uso de una librería desarrollada para Javascript de Lex,
 se pudo conseguir en una escasa cantidad de tiempo tener en funcionamiento el código en Javascript.
 
+\subsection{Lex}
 Además, era imprescindible migrar las estructuras básicas que se crean cuando se carga el código, 
 es decir: Las unidades funcionales y los bloques básicos y sucesores.
 
@@ -23,15 +27,40 @@ En este punto ya se tomó una de las decisiones más importantes para el desarro
 \section{Migración de la máquina superescalar}
 \label{5:sec2} 
 
+Una de las cosas que más puedo agradecer, es que el diseño del autor original de SIMDE era bastante 
+bueno. Además, en la memoria del proyecto \textbf{CITAR MEMORIA} se incluían las decisiones de diseño
+tomadas para la realización del simulador. Dando sentido.
 
+\bigskip
+Aún así, en la migración de C++ a Typescript se echaron múltiples características del primer lenguaje,
+como por ejemplo la sobrecarga de operadores y el uso de iteradores sobre colecciones.
+
+\bigskip
+La mayor dificultad en esta parte del proceso era ser capaz de seguir el flujo de un volumen tan grande
+de código. Por suerte, la linterna de Typescript y el \textit{intellisense} ayudaron mucho a reducir la cantidad
+de pifias.
+
+\bigskip
+Aún así encontré además, algunos problemas a la hora de migrar el código debido al uso de librerías 
+que no estaban en el estándar.
+
+\textbf{CITAR FAMOSO CASO BBAS}.
 
 %------------------------------------------------------------------------------
 \section{Desarrollo de la interfaz}
 \label{5:sec3} 
 
+\subsection{Análisis de la interfaz original}
+
+\subsection{El problema de las zonas}
+
+\subsection{El nuevo diseño por componentes}
+
 %------------------------------------------------------------------------------
 \section{Integración interfaz - máquina superescalar}
 \label{5:sec3} 
+
+\subsection{Realización de los bindings}
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

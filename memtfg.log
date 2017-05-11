@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  10 MAY 2017 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  11 MAY 2017 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,6 +477,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \eufmfam=\mathgroup6
 ) (./memtfg.aux
 
+LaTeX Warning: Label `fig:ArbolBinario' multiply defined.
+
+
 LaTeX Warning: Label `5:sec3' multiply defined.
 
 )
@@ -568,17 +571,13 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 ]
 Cap\'{\i }tulo 1.
 (./cap1.tex
-Overfull \hbox (11.99384pt too wide) in paragraph at lines 31--31
-[]\OT1/cmr/bx/n/20.74 Breve in-tro-duc-ci^^Son a los fun-da-men-tos te^^Sori-
- []
-
 File: images/arbolbinario.eps Graphic file (type eps)
-<images/arbolbinario.eps>) [1
+ <images/arbolbinario.eps>) [1
 
 ] [2]
 Cap\'{\i }tulo 2.
 (./cap2.tex
-Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--9
+Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--10
 []\OT1/cmr/m/n/14.4 Los cap^^S^^Pulos in-ter-me-dios servi^^San para cubrir los
  sigu-ientes as-pec-tos: an-tecedentes,
  []
@@ -587,46 +586,53 @@ Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--9
 
 ]
 Cap\'{\i }tulo 3.
-(./cap3.tex [4
+(./cap3.tex
+File: images/cap3/polymerlogo.eps Graphic file (type eps)
+ <images/cap3/polymerlogo.eps> [4
 
-]) [5]
+]
+Overfull \hbox (6.88316pt too wide) in paragraph at lines 70--70
+[]\OT1/cmr/bx/n/20.74 Tecnolog^^S^^Pa para la in-te-graci^^Son mod-e-lo vista 
+ []
+
+[5] [6]) [7]
 Cap\'{\i }tulo 4.
-(./cap4.tex) [6
+(./cap4.tex) [8
 
 ]
 Cap\'{\i }tulo 5.
-(./cap5.tex
-Overfull \hbox (7.79303pt too wide) in paragraph at lines 33--33
+(./cap5.tex [9
+
+]
+Overfull \hbox (7.79303pt too wide) in paragraph at lines 51--51
 []\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
  []
 
-) [7
-
-]
+) [10]
 Cap\'{\i }tulo 6.
-(./cap6.tex [8
+(./cap6.tex [11
 
-]) [9] [10]
+]) [12] [13]
 Cap\'{\i }tulo 7.
-(./cap7.tex) [11
+(./cap7.tex) [14
 
 ]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [12
+(./cap8.tex) [15
 
 ]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [13
+(./cap9.tex (./tables/presupuesto.tex)) [16
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [14
+(./apendice1.tex) [17
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [15
+(./apendice2.tex) (./memtfg.bbl [18
 
-]) [16
+]) [19
 
 ] (./memtfg.aux)
 
@@ -634,12 +640,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2684 strings out of 494954
- 34586 string characters out of 6181004
- 100862 words of memory out of 5000000
- 5879 multiletter control sequences out of 15000+600000
- 11928 words of font info for 45 fonts, out of 8000000 for 9000
+ 2690 strings out of 494954
+ 34675 string characters out of 6181004
+ 100887 words of memory out of 5000000
+ 5883 multiletter control sequences out of 15000+600000
+ 12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,10n,23p,414b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,23p,254b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (26 pages, 35812 bytes).
+Output written on memtfg.dvi (29 pages, 44612 bytes).
