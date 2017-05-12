@@ -18,42 +18,41 @@
 \contentsline {subsection}{\numberline {3.2.2}Polymer}{6}
 \contentsline {subsection}{\numberline {3.2.3}React}{6}
 \contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }a para hacer la build}{6}
-\contentsline {subsection}{\numberline {3.3.1}Browserify}{6}
-\contentsline {subsection}{\numberline {3.3.2}Gulp/Grunt}{6}
-\contentsline {subsection}{\numberline {3.3.3}Webpack}{6}
+\contentsline {subsection}{\numberline {3.3.1}Gulp/Grunt}{6}
+\contentsline {subsection}{\numberline {3.3.2}Webpack}{6}
 \contentsline {section}{\numberline {3.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{7}
 \contentsline {subsection}{\numberline {3.4.1}Generadores de contenido est\IeC {\'a}tico}{7}
 \contentsline {subsection}{\numberline {3.4.2}Hexo}{7}
 \contentsline {chapter}{\numberline {4}Objetivos y fases}{8}
 \contentsline {section}{\numberline {4.1}Objetivos}{8}
 \contentsline {section}{\numberline {4.2}Fases}{8}
-\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{9}
-\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{9}
-\contentsline {subsection}{\numberline {5.1.1}Analizadores l\IeC {\'e}xicos}{9}
-\contentsline {subsection}{\numberline {5.1.2}Lex}{9}
-\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{9}
-\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{10}
-\contentsline {subsection}{\numberline {5.3.1}An\IeC {\'a}lisis de la interfaz original}{10}
-\contentsline {subsection}{\numberline {5.3.2}El problema de las zonas}{10}
-\contentsline {subsection}{\numberline {5.3.3}El nuevo dise\IeC {\~n}o por componentes}{10}
-\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{10}
-\contentsline {subsection}{\numberline {5.4.1}Realizaci\IeC {\'o}n de los bindings}{10}
-\contentsline {section}{\numberline {5.5}Migraci\IeC {\'o}n de la documentaci\IeC {\'o}n}{10}
-\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{12}
-\contentsline {section}{\numberline {6.1}Parseador}{12}
-\contentsline {section}{\numberline {6.2}Modo de ejecuci\IeC {\'o}n en lotes}{13}
-\contentsline {section}{\numberline {6.3}Hist\IeC {\'o}rico}{13}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{15}
-\contentsline {section}{\numberline {7.1}Conclusiones}{15}
-\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{15}
-\contentsline {chapter}{\numberline {8}Summary and Conclusions }{17}
-\contentsline {section}{\numberline {8.1}Summary}{17}
-\contentsline {section}{\numberline {8.2}Future work lines}{17}
-\contentsline {chapter}{\numberline {9}Presupuesto}{18}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{19}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{19}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{19}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{20}
-\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{20}
-\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{20}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{20}
+\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{10}
+\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{10}
+\contentsline {subsection}{\numberline {5.1.1}Analizadores l\IeC {\'e}xicos}{10}
+\contentsline {subsection}{\numberline {5.1.2}Lex}{10}
+\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{10}
+\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{11}
+\contentsline {subsection}{\numberline {5.3.1}An\IeC {\'a}lisis de la interfaz original}{11}
+\contentsline {subsection}{\numberline {5.3.2}El problema de las zonas}{11}
+\contentsline {subsection}{\numberline {5.3.3}El nuevo dise\IeC {\~n}o por componentes}{11}
+\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - m\IeC {\'a}quina superescalar}{11}
+\contentsline {subsection}{\numberline {5.4.1}Realizaci\IeC {\'o}n de los bindings}{11}
+\contentsline {section}{\numberline {5.5}Migraci\IeC {\'o}n de la documentaci\IeC {\'o}n}{11}
+\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{13}
+\contentsline {section}{\numberline {6.1}Parseador}{13}
+\contentsline {section}{\numberline {6.2}Modo de ejecuci\IeC {\'o}n en lotes}{14}
+\contentsline {section}{\numberline {6.3}Hist\IeC {\'o}rico}{14}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{16}
+\contentsline {section}{\numberline {7.1}Conclusiones}{16}
+\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{16}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions }{18}
+\contentsline {section}{\numberline {8.1}Summary}{18}
+\contentsline {section}{\numberline {8.2}Future work lines}{18}
+\contentsline {chapter}{\numberline {9}Presupuesto}{19}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{20}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{20}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{20}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{21}
+\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{21}
+\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{21}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{21}

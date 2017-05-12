@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  11 MAY 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  12 MAY 2017 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,84 +588,56 @@ Overfull \hbox (6.88316pt too wide) in paragraph at lines 70--70
 
 [5] [6]) [7]
 Cap\'{\i }tulo 4.
-(./cap4.tex) [8
+(./cap4.tex [8
 
-]
+]) [9]
 Cap\'{\i }tulo 5.
-(./cap5.tex [9
+(./cap5.tex [10
 
 ]
 Overfull \hbox (7.79303pt too wide) in paragraph at lines 60--60
 []\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
  []
 
-[10]) [11]
+[11]) [12]
 Cap\'{\i }tulo 6.
 (./cap6.tex
 File: images/cap6/errorsimde.eps Graphic file (type eps)
- <images/cap6/errorsimde.eps> [12
+ <images/cap6/errorsimde.eps> [13
 
 ]
-
-LaTeX Warning: File `images/cap6/nuevoerrorsimde.eps' not found on input line 4
-4.
-
-
-! LaTeX Error: File `images/cap6/nuevoerrorsimde.eps' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...extwidth]{images/cap6/nuevoerrorsimde.eps}
-                                                  
-? 
-
-! LaTeX Error: Cannot determine size of graphic in images/cap6/nuevoerrorsimde.
-eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...extwidth]{images/cap6/nuevoerrorsimde.eps}
-                                                  
-? 
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
-<images/cap6/nuevoerrorsimde.eps> [13]) [14]
-Cap\'{\i }tulo 7.
-(./cap7.tex [15
 
-]) [16]
+<images/cap6/nuevoerrorsimde.eps> [14]) [15]
+Cap\'{\i }tulo 7.
+(./cap7.tex [16
+
+]) [17]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [17
+(./cap8.tex) [18
 
 ]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [18
+(./cap9.tex (./tables/presupuesto.tex)) [19
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [19
+(./apendice1.tex) [20
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [20
+(./apendice2.tex) (./memtfg.bbl [21
 
-]) [21
+]) [22
 
-] (./memtfg.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./memtfg.aux) ) 
 Here is how much of TeX's memory you used:
- 2690 strings out of 494954
- 34686 string characters out of 6181004
- 100889 words of memory out of 5000000
- 5881 multiletter control sequences out of 15000+600000
+ 2689 strings out of 494954
+ 34668 string characters out of 6181004
+ 100882 words of memory out of 5000000
+ 5880 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,10n,23p,254b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (31 pages, 55340 bytes).
+Output written on memtfg.dvi (32 pages, 56936 bytes).
