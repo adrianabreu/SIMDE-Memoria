@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  12 MAY 2017 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  12 MAY 2017 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -573,71 +573,75 @@ Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--10
  sigu-ientes as-pec-tos: an-tecedentes,
  []
 
-) [3
+File: images/cap2/simdeoriginal.eps Graphic file (type eps)
+<images/cap2/simdeoriginal.eps>) [3
 
-]
+] [4]
 Cap\'{\i }tulo 3.
 (./cap3.tex
 File: images/cap3/polymerlogo.eps Graphic file (type eps)
- <images/cap3/polymerlogo.eps> [4
+ <images/cap3/polymerlogo.eps> [5
 
 ]
-Overfull \hbox (6.88316pt too wide) in paragraph at lines 70--70
+File: images/cap3/typescript.eps Graphic file (type eps)
+ <images/cap3/typescript.eps>
+[6]
+Overfull \hbox (6.88316pt too wide) in paragraph at lines 79--79
 []\OT1/cmr/bx/n/20.74 Tecnolog^^S^^Pa para la in-te-graci^^Son mod-e-lo vista 
  []
 
-[5] [6]) [7]
+[7] [8]) [9]
 Cap\'{\i }tulo 4.
-(./cap4.tex [8
+(./cap4.tex [10
 
-]) [9]
+]) [11]
 Cap\'{\i }tulo 5.
-(./cap5.tex [10
+(./cap5.tex [12
 
 ]
 Overfull \hbox (7.79303pt too wide) in paragraph at lines 60--60
 []\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
  []
 
-[11]) [12]
+[13]) [14]
 Cap\'{\i }tulo 6.
 (./cap6.tex
 File: images/cap6/errorsimde.eps Graphic file (type eps)
- <images/cap6/errorsimde.eps> [13
+ <images/cap6/errorsimde.eps> [15
 
 ]
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
 
-<images/cap6/nuevoerrorsimde.eps> [14]) [15]
+<images/cap6/nuevoerrorsimde.eps> [16]) [17]
 Cap\'{\i }tulo 7.
-(./cap7.tex [16
+(./cap7.tex [18
 
-]) [17]
+]) [19]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [18
+(./cap8.tex) [20
 
 ]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [19
+(./cap9.tex (./tables/presupuesto.tex)) [21
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [20
+(./apendice1.tex) [22
 
 ]
 Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [21
+(./apendice2.tex) (./memtfg.bbl [23
 
-]) [22
+]) [24
 
 ] (./memtfg.aux) ) 
 Here is how much of TeX's memory you used:
- 2689 strings out of 494954
- 34668 string characters out of 6181004
- 100882 words of memory out of 5000000
- 5880 multiletter control sequences out of 15000+600000
+ 2696 strings out of 494954
+ 34846 string characters out of 6181004
+ 100905 words of memory out of 5000000
+ 5884 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,10n,23p,254b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (32 pages, 56936 bytes).
+Output written on memtfg.dvi (34 pages, 61196 bytes).

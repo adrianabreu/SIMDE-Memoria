@@ -32,10 +32,35 @@ conceptos.
 \section{Paralelismo a nivel de instrucción}
 \label{1:sec:2}
 
-El paralelismo a nivel de instrucción 
+Con el objetivo de mejorar el rendimiento de una computadora es necesario superar la barrera
+de 1 CPI \textit{(ciclo por instrucción)}, es neceasrio conseguir que se emitan más de una instrucción
+de forma simultánea.
+
+\bigskip
+Para alcanzar con esto se debe proveer de la estructura necesaria para realizarlo, y lo más importante,
+resolver las posibles dependencias que aparezcan en el código de tal forma que no se altere la 
+ejecución original.
+
+\bigskip
+Existen dos grandes técnicas para conseguir explotar este paralelismo a nivel de instrucción:
+
+\begin{enumerate}
+
+\item \textbf{Planificación dinámica}
+
+\item \textbf{Planificación estática}
+
+\end{enumerate}
 
 \subsection{Superescalar}
 
+La máquina Superescalar hace uso de la planificación dinámica. Es decir, la solución se implementa a través
+de la circuitería.
+
+\bigskip
+Para resolver los problemas de dependencias se utiliza el algoritmo de Tomasulo.
+
+CITAR ALGORITMO TOMASULO 
 
 \subsection{VLIW}
 
