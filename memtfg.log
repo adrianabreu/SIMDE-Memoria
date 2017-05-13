@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  12 MAY 2017 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  13 MAY 2017 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,85 +563,71 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 ]
 Cap\'{\i }tulo 1.
-(./cap1.tex [1
+(./chapters/cap1.tex (./chapters/cap1/1-introduccion.tex) [1
 
-]) [2]
+] [2]) [3]
 Cap\'{\i }tulo 2.
-(./cap2.tex
-Overfull \hbox (21.08333pt too wide) in paragraph at lines 7--10
-[]\OT1/cmr/m/n/14.4 Los cap^^S^^Pulos in-ter-me-dios servi^^San para cubrir los
- sigu-ientes as-pec-tos: an-tecedentes,
- []
-
+(./chapters/cap2.tex
 File: images/cap2/simdeoriginal.eps Graphic file (type eps)
-<images/cap2/simdeoriginal.eps>) [3
+ <images/cap2/simdeoriginal.eps> [4
 
-] [4]
+]) [5]
 Cap\'{\i }tulo 3.
-(./cap3.tex
+(./chapters/cap3.tex
 File: images/cap3/polymerlogo.eps Graphic file (type eps)
- <images/cap3/polymerlogo.eps> [5
+ <images/cap3/polymerlogo.eps> [6
 
 ]
 File: images/cap3/typescript.eps Graphic file (type eps)
- <images/cap3/typescript.eps>
-[6]
-Overfull \hbox (6.88316pt too wide) in paragraph at lines 79--79
+
+<images/cap3/typescript.eps> [7]
+Overfull \hbox (6.88316pt too wide) in paragraph at lines 80--80
 []\OT1/cmr/bx/n/20.74 Tecnolog^^S^^Pa para la in-te-graci^^Son mod-e-lo vista 
  []
 
-[7] [8]) [9]
+[8] [9]) [10]
 Cap\'{\i }tulo 4.
-(./cap4.tex [10
+(./chapters/cap4.tex [11
 
-]) [11]
+]) [12]
 Cap\'{\i }tulo 5.
-(./cap5.tex [12
+(./chapters/cap5.tex [13
 
-]
-Overfull \hbox (7.79303pt too wide) in paragraph at lines 60--60
-[]\OT1/cmr/bx/n/20.74 Integraci^^Son in-ter-faz - m^^Saquina su-perescalar 
- []
-
-[13]) [14]
+] [14]) [15] [16]
 Cap\'{\i }tulo 6.
-(./cap6.tex
+(./chapters/cap6.tex
 File: images/cap6/errorsimde.eps Graphic file (type eps)
- <images/cap6/errorsimde.eps> [15
+ <images/cap6/errorsimde.eps> [17
 
 ]
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
 
-<images/cap6/nuevoerrorsimde.eps> [16]) [17]
+<images/cap6/nuevoerrorsimde.eps> [18]) [19]
 Cap\'{\i }tulo 7.
-(./cap7.tex [18
+(./chapters/cap7.tex [20
 
-]) [19]
+]) [21]
 Cap\'{\i }tulo 8.
-(./cap8.tex) [20
+(./chapters/cap8.tex [22
 
-]
+]) [23]
 Cap\'{\i }tulo 9.
-(./cap9.tex (./tables/presupuesto.tex)) [21
+(./chapters/cap9.tex (./tables/presupuesto.tex)) [24
 
 ]
 Ap\'endice A.
-(./apendice1.tex) [22
+(./chapters/apendice1.tex) (./memtfg.bbl [25
 
-]
-Ap\'endice B.
-(./apendice2.tex) (./memtfg.bbl [23
-
-]) [24
+]) [26
 
 ] (./memtfg.aux) ) 
 Here is how much of TeX's memory you used:
  2696 strings out of 494954
- 34846 string characters out of 6181004
- 100905 words of memory out of 5000000
- 5884 multiletter control sequences out of 15000+600000
+ 35053 string characters out of 6181004
+ 100885 words of memory out of 5000000
+ 5882 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,10n,23p,254b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,23p,263b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (34 pages, 61196 bytes).
+Output written on memtfg.dvi (36 pages, 65632 bytes).

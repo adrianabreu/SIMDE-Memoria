@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter 5: Desarrollo del proyecto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Migración del núcleo de la aplicación}
+\label{5:sec1} 
+
+\subsection{Analizadores léxicos}
+El núcleo de la aplicación se basa en el uso del generador de analizadores 
+léxicos FLEX para parsear un conjunto de instrucciones similar a las del MIPS IV. 
+Para realizar el proceso de migración he tenido que comprender primero el 
+funcionamiento de los analizadores léxicos.
+
+\bigskip
+Un analizador léxico es un programa que recibe como entrada el código fuente de 
+otro programa y produce una salida compuesta de tokens o símbolos 
+que alimentarán a un analizador sintáctico.
+
+\bigskip
+Para poroceder con esta tarea se ha aislado la implementación original y se han 
+realizado pequeñas pruebas concretas.
+
+\subsection{Lex}
+
+A pesar de las multiples librerías, que hay disponibles, se decidió que la más adecuada 
+para este proyecto era Lex https://www.npmjs.com/package/lex. 
+
+El funcionamiento de este paquete es realmente sencillo, partiendo de un 
+objeto Lexer, se definen las reglas y el token a retornar. De esta forma
+el código original que alimentaba flex:
+
+// INSERTAR CODIGO original
+
+Se ha convertido en: 
+
+// CODIGO FLEX
+
+%------------------------------------------------------------------------------
+\section{Migración de la máquina superescalar}
+\label{5:sec2} 
+
+Una de las cosas que más puedo agradecer, es que el diseño del autor original de SIMDE era bastante 
+bueno. Además, en la memoria del proyecto \textbf{CITAR MEMORIA} se incluían las decisiones de diseño
+tomadas para la realización del simulador. Dando sentido.
+
+\bigskip
+Aún así, en la migración de C++ a Typescript se echaron múltiples características del primer lenguaje,
+como por ejemplo: las estructuras,  la sobrecarga de operadores y el uso de iteradores sobre colecciones.
+
+\bigskip
+La mayor dificultad en esta parte del proceso era ser capaz de seguir el flujo de un volumen tan grande
+de código. Por suerte, la linterna de Typescript y el \textit{intellisense} ayudaron mucho a reducir la cantidad
+de pifias.
+
+\bigskip
+Aún así encontré además, algunos problemas a la hora de migrar el código debido al uso de librerías 
+que no estaban en el estándar.
+
+\textbf{CITAR FAMOSO CASO BBAS}.
+
+\bigskip
+Por comodidad durante el desarrollo, se convirtieron las estructuras de C++ en clases, de tal forma
+que la gestión de las mismas fuero más sencilla.
+
+%------------------------------------------------------------------------------
+\section{Desarrollo de la interfaz}
+\label{5:sec3} 
+
+Esta tarea, aunque en un principio pudiera parecer mucho menos intensa que la migración del código 
+superescalar, también ha tenido una carga de trabajo. Todo ello porque se ha intentado por encima 
+de todo, conseguir un alto grado de modularización y reutilización. 
+
+\subsection{Análisis de la interfaz original}
+
+Si analizamos la interfaz original de SIMDE nos encontramos con esto: 
+
+A grosso modo podríamos diferenciar 5 zonas principales.
+
+Ahora analizaremos el funcionamiento de los componentes, en sí, con el objetivo de aislar conceptos
+/funcionalidades.
+
+\subsection{El nuevo diseño web}
+
+A día de hoy 
+
+\bigskip
+Ahora surge un problema, ¿merece el esfuerzo aplicar el diseño de las ventanas redimensionables y 
+arrastables? La conclusión es que no. SIMDE muestra la información que necesitamos. En un 
+principio nos interesa ver la ejecución en sí. Luego, en su realización, nos interesa ver simplemente
+el resultado de la ejecución.
+
+\bigskip
+Por eso, se ha decidido separar la ejecución de los registros / memoria mediante el uso de pestañas.
+
+a) Pestaña 1.
+
+b) Pestaña 2.
+
+\subsection{El nuevo diseño por componentes}
+
+%------------------------------------------------------------------------------
+\section{Integración interfaz - lógica desarrollada}
+\label{5:sec4} 
+
+\subsection{Realización de los bindings}
+Uno de los puntos a favor de haber utilizado este tipo de librerías es que su elevada flexibilidad
+nos otorga cierto grado de 
+
+%------------------------------------------------------------------------------
+\section{Migración de la documentación}
+\label{5:sec5} 
+
+La primer ampliación ha sido la incorporación de documentación del programa. Aunque el
+término de ampliación no es del todo correcto, puesto que en el proyecto original el autor
+elaboró una extensa documentación, esta quedó inaccesible.
+
+\bigskip
+La documentación fue realizada en formato .HLP, un formato de ayuda de Windows que quedó
+en desuso en Windows Vista. Y esta documentación era realmente interesante, pues no sólo
+contenía datos sobre la palicación, sino que incluía consejos para el desarrollo de 
+aplicaciones para las distintas máquinas y además explicaba el funcionamiento de las máquinas.
+
+\bigskip
+Para recuperar esta documentación se ha utilizado una herramientas de extracción denominada
+Help Decompiler. Esta herramienta de línea de comandos procesa los ficheros de ayuda de
+Windows .HLP y genera un fichero de texto enriquecido con la documentación y en una carpeta
+externa el contenido multimedia que incluye la misma.
+
+\bigskip
+Para poder llevar a cabo la tarea de la documentación de forma paralela se consideró que lo mejor era
+hacer un proyecto aparte. Resultaba evidente que la documentación de una aplicación web debía de estar en la
+web. 
+
+\bigskip
+Tras barajar algunas opciones, se optó por mover la documentación a un formato mantenible como 
+es markdown. Y partiendo de esto se utilizó un generador de contenido estático basado en NodeJS (Hexo)
+para convertir este markdown en web. Se desarrollo un tema simple y personalizado para la ayuda y se 
+añadió la capacidad de cambiar entre inglés y español.
+
+\bigskip
+Este es el estado actual de la aplicación de la documentación.
+
+    IMAGEN DOCUMENTACIÓN
+
+\bigskip
+Se puede acceder a ella desde el menú \textit{Ayuda > Documentación} en la nueva aplicación del SIMDE.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
