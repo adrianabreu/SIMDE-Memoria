@@ -1,0 +1,29 @@
+\subsection{Analizadores léxicos}
+El núcleo de la aplicación se basa en el uso del generador de analizadores 
+léxicos FLEX para parsear un conjunto de instrucciones similar a las del MIPS IV. 
+Para realizar el proceso de migración he tenido que comprender primero el 
+funcionamiento de los analizadores léxicos.
+
+\bigskip
+Un analizador léxico es un programa que recibe como entrada el código fuente de 
+otro programa y produce una salida compuesta de tokens o símbolos 
+que alimentarán a un analizador sintáctico.
+
+\bigskip
+Para poroceder con esta tarea se ha aislado la implementación original y se han 
+realizado pequeñas pruebas concretas.
+
+\subsection{Lex}
+
+A pesar de las multiples librerías, que hay disponibles, se decidió que la más adecuada 
+para este proyecto era Lex https://www.npmjs.com/package/lex. 
+
+El funcionamiento de este paquete es realmente sencillo, partiendo de un 
+objeto Lexer, se definen las reglas y el token a retornar. De esta forma
+el código original que alimentaba flex:
+
+// INSERTAR CODIGO original
+
+Se ha convertido en: 
+
+// CODIGO FLEX

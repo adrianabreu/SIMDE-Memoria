@@ -1,0 +1,38 @@
+Aunque este proceso pueda parecer trivial, para poder construir el empaquetado final de esta aplicación
+deben ejecutarse múltiples tareas:
+
+\begin{enumerate}
+
+\item Compilar el código typescript a javascript.
+
+\item Compilar el código .tsx a .jsx.
+
+\item Resolver los imports de los múltiples componentes.
+
+\item Procesar el código sass y convertirlo en css.
+
+\end{enumerate}
+
+\subsection{Gulp/Grunt}
+
+Con la aparición de NodeJS, se crearon 
+
+\subsection{Webpack}
+\bigskip
+Una de las grandes herramientas de 2016 que acabó por cambiar el flujo de muchos 
+desarrolladores web y desbancó a tasks runners como Grunt y Gulp fue webpack.
+
+\bigskip
+Para poder integrar todo este código y resolver el problema de los múltiples imports 
+era necesario utilizar algún tipo de herramienta de gestión de paquetes, como por ejemplo 
+commonjs, o requirejs. Sin embargo, webpack se encarga de resolver todas estas 
+dependencias y crear statics assets para el navegador.
+
+\bigskip
+Uno de los mayores puntos a favor es que es altamente configurable, existen muchísimos 
+plugins de webpack que permiten hacer preprocesamiento de css, tratamiento de imágenes,
+minimización codigo, étctera.. 
+
+\bigskip
+Actualmente en la aplicación de SIMDE webpack  se encarga de compilar el código de 
+typescript, el código de react y de generar un bundle 

@@ -1,0 +1,45 @@
+\subsection{Webcomponents}
+
+Desde el inicio del proyecto, tenía claro que alguna librería se encargaría de realizar 
+por mí el tedioso proceso de manipular el DOM. Actualmente existen múltiples librerías 
+y frameworks que podían servirme en esta tarea, pero muchos de ellos (como por ejemplo Angular),
+ no son lo suficientemente flexibles y acaban condicionando el desarrollo de la aplicación.
+
+\bigskip
+Lo que SIMDE necesitaba era un proyecto que hiciera uso de los Web components, 
+una serie de apis que permiten crear etiquetas html personalizadas y reutilizables. 
+Los webs componentes consisten en 4 características principales que pueden usarse 
+por separado o todos juntos:
+
+\begin{enumerate}
+
+\item \textbf{Elementos personalizados.}
+\item \textbf{Shadow DOM.}
+\item \textbf{HTML Imports.}
+\item \textbf{HTML Templates.}
+
+\end{enumerate}
+
+\subsection{Polymer}
+Probablemente la librería basada en Web Componentes más conocida es Polymer,
+una librería desarrollada por Google y anunciada en 2013. 
+
+\bigskip
+
+Pero a pesar de que las múltiples ventajas de Polymer existe una librería cuya comunidad es espléndida,
+ y no es otra que React.
+
+\subsection{React}
+Existen una gran cantidad de motivos para escoger React sobre Polymer: Como por ejemplo, 
+que ahora mismo se utiliza en decenas de aplicaciones importantes, como netflix, airbnb, Wallmart… (TODO INCLUIR CITA)
+
+\bigskip
+Que la comunidad es impresionantemente activa y cuenta con una gran cantidad de usuarios dispuestos a ayudar, así como cuenta con muchísima documentación y muchísimas implementaciones de librerías de terceros.
+
+\bigskip
+React utiliza un híbrido entre html y javascript denominado jsx, como también tiene soporte para 
+Typescript, en este caso utilizamos tsx, y se basa en un “unidirectonial data-flow”. 
+
+\bigskip
+Ademas React implementa operaciones sobre el DOM virtual de tal forma que las operaciones sobre
+el verdadero DOM sean eficientes.

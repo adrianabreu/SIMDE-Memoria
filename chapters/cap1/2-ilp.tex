@@ -1,0 +1,69 @@
+Con el objetivo de mejorar el rendimiento de una computadora es necesario superar la barrera
+de 1 CPI \textit{(ciclo por instrucción)}, para ello, se debe aumentar el grado de emisión de 
+instrucciones.
+
+\bigskip
+Para alcanzar este propósito se deben considerar varios factores:
+
+\begin{enumerate}
+
+\item Se debe proveer de una estructura de emisión.
+
+\item Se deben detectar los posibles riesgos asociados. 
+
+\item Se debe hacer un \textit{scheduling}.
+
+\end{enumerate}
+
+\bigskip
+Existen dos grandes técnicas para conseguir explotar este paralelismo a nivel de instrucción:
+
+\begin{enumerate}
+
+\item \textbf{Planificación dinámica}
+
+\item \textbf{Planificación estática}
+
+\end{enumerate}
+
+\subsection{Superescalar}
+
+Las máquinas Superescalares hacen uso de la planificación dinámica, es decir, el hardware 
+en si es el encargado de mantener la emisión de múltiples instrucciones, decodificarlas y 
+ejecutarlas.
+
+\bigskip
+Este tipo de parlaleismo conlleva un enorme grado de complejidad, ya que se deben abordar 
+todos estos problemas:
+
+\begin{enumerate}
+
+\item Capturar y decodificar más instrucciones en un ciclo.
+
+\item Detectar dependencias entre las instrucciones capturas y las que se ejecutan.
+
+\end{enumerate}
+
+\bigskip
+Para resolver los problemas de dependencias se utiliza el algoritmo de Tomasulo.
+
+CITAR ALGORITMO TOMASULO 
+
+\subsection{VLIW}
+
+A diferencia de las máquinas superescalares, las máquinas \textit{Very Long Instruction Word},
+mantienen un hardware simple de emisión y todas las responsabilidades caen en el compilador.
+
+\bigskip
+Para mantener este hardware simple, estas máquinas trabajan como su propio nombre indica, con
+un tamaño de palabra muy grande, es decir, las instrucciones de la máquina son un conjunto
+de instrucciones normales que pueden ejecutarse en paralelo.
+
+\bigskip
+Esto por supuesto, implica una serie de ventaja / inconvenientes. Por una parte, el compilador,
+debe tener una visión completa del programa, conlleva un nivel de complejidad elevado y requiere
+un alto grado de especialización por máquina para poder realizar las mayores optimizacions posibles.
+
+\bigskip
+Por otra parte, sin embargo, el software es versátil y la circuitería al ser de una menor complejidad 
+permite mayores velocidades de reloj.
