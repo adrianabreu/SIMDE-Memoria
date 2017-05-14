@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  13 MAY 2017 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  14 MAY 2017 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,6 +372,31 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks17
+\lst@length=\count89
+\lst@currlwidth=\dimen108
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen109
+\lst@width=\dimen110
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen111
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
  (./spanish.ldf
@@ -379,8 +404,8 @@ Language: spanish.ldf 2001/01/30 v4.1c Spanish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen108
+\babel@savecnt=\count96
+\U@D=\dimen112
 )
 
 Package babel Warning: No hyphenation patterns were preloaded for
@@ -390,15 +415,15 @@ Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                preloaded for english instead on input line 40.
 
 \l@spanish = a dialect from \language0
-\es@quottoks=\toks17
-\es@quotdepth=\count89
+\es@quottoks=\toks18
+\es@quotdepth=\count97
 Package babel Info: Making . an active character on input line 464.
 Package babel Info: Making " an active character on input line 495.
 Package babel Info: Making < an active character on input line 581.
 Package babel Info: Making > an active character on input line 582.
 )) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box26
+\@eurobox=\box28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
@@ -408,41 +433,41 @@ Package: algorithm
 Document Style `algorithm' - floating environment
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count90
-\float@exts=\toks18
-\float@box=\box27
-\@float@everytoks=\toks19
-\@floatcapt=\box28
+\c@float@type=\count98
+\float@exts=\toks19
+\float@box=\box29
+\@float@everytoks=\toks20
+\@floatcapt=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks20
-\c@algorithm=\count91
+\@float@every@algorithm=\toks21
+\c@algorithm=\count99
 ) (./algorithmic.sty
 Package: algorithmic 2006/06/02
 
 Document Style `algorithmic' - environment
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count92
-\calc@Bcount=\count93
-\calc@Adimen=\dimen109
-\calc@Bdimen=\dimen110
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count94
+\calc@Ccount=\count102
 \calc@Cskip=\skip45
 )
-\c@ALC@line=\count95
-\c@ALC@rem=\count96
-\c@ALC@depth=\count97
+\c@ALC@line=\count103
+\c@ALC@rem=\count104
+\c@ALC@depth=\count105
 \ALC@tlm=\skip46
 \algorithmicindent=\skip47
 ) (./multirow.sty
-\bigstrutjot=\dimen111
+\bigstrutjot=\dimen115
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -458,18 +483,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count98
-\Gm@cntv=\count99
-\c@Gm@tempcnt=\count100
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
-\Gm@dimlist=\toks21
+\Gm@cnth=\count106
+\Gm@cntv=\count107
+\c@Gm@tempcnt=\count108
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/plain/amsfonts/amssym.def
 \msafam=\mathgroup4
@@ -478,18 +503,19 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (./memtfg.aux)
 \openout1 = `memtfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+\c@lstlisting=\count109
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -531,14 +557,14 @@ File: images/logo_vertical.eps Graphic file (type eps)
 ] [2] [3]
 File: images/by_88x31.eps Graphic file (type eps)
  <images/by_88x31.eps>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 210.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <20.74> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
  [4] [1] [1]
 (./memtfg.toc
 LaTeX Font Info:    External font `cmex7' loaded for size
@@ -566,81 +592,125 @@ Cap\'{\i }tulo 1.
 (./chapters/cap1.tex (./chapters/cap1/1-introduccion.tex)
 (./chapters/cap1/2-ilp.tex [1
 
-]) (./chapters/cap1/3-motivacion.tex [2]))
+] [2]) (./chapters/cap1/3-motivacion.tex))
 [3]
 Cap\'{\i }tulo 2.
 (./chapters/cap2.tex (./chapters/cap2/1-simde.tex
 File: images/cap2/simdeoriginal.eps Graphic file (type eps)
 
-<images/cap2/simdeoriginal.eps>) [4
+<images/cap2/simdeoriginal.eps>) (./chapters/cap2/2-otros-simuladores.tex)
+[4
 
-] (./chapters/cap2/2-otros-simuladores.tex)
-(./chapters/cap2/3-evolucion-mundo-web.tex)) [5]
+] (./chapters/cap2/3-evolucion-mundo-web.tex)
+Overfull \hbox (18.69669pt too wide) in paragraph at lines 21--18
+[]\OT1/cmr/m/n/14.4 Si in-ten-ta-mos en-con-trar un ori-gen para es-ta difer-en
+-cia tan in-cre^^S^^Pble de rendimien-
+ []
+
+) [5]
 Cap\'{\i }tulo 3.
 (./chapters/cap3.tex (./chapters/cap3/1-lenguaje-logica.tex
-File: images/cap3/polymerlogo.eps Graphic file (type eps)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
 
-<images/cap3/polymerlogo.eps> [6
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
+ [6
 
 ]
 File: images/cap3/typescript.eps Graphic file (type eps)
- <images/cap3/typescript.eps> [7])
+
+<images/cap3/typescript.eps>)
 Overfull \hbox (6.88316pt too wide) in paragraph at lines 11--11
 []\OT1/cmr/bx/n/20.74 Tecnolog^^S^^Pa para la in-te-graci^^Son mod-e-lo vista 
  []
 
-(./chapters/cap3/2-tecnologia-interfaz.tex [8])
-(./chapters/cap3/3-tecnologia-ensamblaje.tex)
-(./chapters/cap3/4-tecnologia-documentacion.tex [9])) [10]
+(./chapters/cap3/2-tecnologia-interfaz.tex [7] [8])
+(./chapters/cap3/3-tecnologia-ensamblaje.tex [9])
+(./chapters/cap3/4-tecnologia-documentacion.tex [10])) [11]
 Cap\'{\i }tulo 4.
 (./chapters/cap4.tex (./chapters/cap4/1-objetivos.tex)
-(./chapters/cap4/2-fases.tex [11
+(./chapters/cap4/2-fases.tex [12
 
-])) [12]
+])) [13]
 Cap\'{\i }tulo 5.
-(./chapters/cap5.tex (./chapters/cap5/1-migracion-nucleo.tex)
-(./chapters/cap5/2-migracion-superescalar.tex [13
+(./chapters/cap5.tex (./chapters/cap5/1-migracion-nucleo.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 
-])
-(./chapters/cap5/3-desarrollo-interfaz.tex [14])
+Overfull \hbox (167.72127pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14
+
+]
+Overfull \hbox (6.98175pt too wide) in paragraph at lines 36--37
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (91.58147pt too wide) in paragraph at lines 48--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[15]
+Overfull \hbox (49.28163pt too wide) in paragraph at lines 98--99
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.36168pt too wide) in paragraph at lines 101--102
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.66156pt too wide) in paragraph at lines 104--105
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[16]) (./chapters/cap5/2-migracion-superescalar.tex)
+(./chapters/cap5/3-desarrollo-interfaz.tex [17])
 (./chapters/cap5/4-integracion-interfaz-logica.tex)
-(./chapters/cap5/5-migracion-documentacion.tex)) [15] [16]
+(./chapters/cap5/5-migracion-documentacion.tex [18])) [19]
 Cap\'{\i }tulo 6.
 (./chapters/cap6.tex (./chapters/cap6/1-errores-parseador.tex
 File: images/cap6/errorsimde.eps Graphic file (type eps)
 
-<images/cap6/errorsimde.eps> [17
+<images/cap6/errorsimde.eps> [20
 
 ]
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
  <images/cap6/nuevoerrorsimde.eps>)
 (./chapters/cap6/2-modo-ejecucion-continua.tex)
-(./chapters/cap6/3-historial.tex [18])) [19]
+(./chapters/cap6/3-historial.tex [21])) [22]
 Cap\'{\i }tulo 7.
-(./chapters/cap7.tex [20
+(./chapters/cap7.tex [23
 
-]) [21]
+]) [24]
 Cap\'{\i }tulo 8.
-(./chapters/cap8.tex [22
+(./chapters/cap8.tex [25
 
-]) [23]
+]) [26]
 Cap\'{\i }tulo 9.
-(./chapters/cap9.tex (./tables/presupuesto.tex)) [24
+(./chapters/cap9.tex (./tables/presupuesto.tex)) [27
 
 ]
 Ap\'endice A.
-(./chapters/apendice1.tex) (./memtfg.bbl [25
+(./chapters/apendice1.tex) (./memtfg.bbl [28
 
-]) [26
+]) [29
 
 ] (./memtfg.aux) ) 
 Here is how much of TeX's memory you used:
- 2758 strings out of 494954
- 36868 string characters out of 6181004
- 100885 words of memory out of 5000000
- 5882 multiletter control sequences out of 15000+600000
+ 4379 strings out of 494954
+ 58182 string characters out of 6181004
+ 141817 words of memory out of 5000000
+ 7489 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,10n,23p,311b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,32p,311b,1662s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (36 pages, 65632 bytes).
+Output written on memtfg.dvi (39 pages, 81128 bytes).

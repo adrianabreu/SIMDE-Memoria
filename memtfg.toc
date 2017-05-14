@@ -12,45 +12,45 @@
 \contentsline {chapter}{\numberline {3}Tecnolog\IeC {\'\i }as}{6}
 \contentsline {section}{\numberline {3.1}Lenguaje para la l\IeC {\'o}gica de la aplicaci\IeC {\'o}n}{6}
 \contentsline {subsection}{\numberline {3.1.1}Coffescript}{6}
-\contentsline {subsection}{\numberline {3.1.2}Dart}{6}
-\contentsline {subsection}{\numberline {3.1.3}Typescript}{6}
+\contentsline {subsection}{\numberline {3.1.2}Dart}{7}
+\contentsline {subsection}{\numberline {3.1.3}Typescript}{7}
 \contentsline {section}{\numberline {3.2}Tecnolog\IeC {\'\i }a para la integraci\IeC {\'o}n modelo vista}{8}
 \contentsline {subsection}{\numberline {3.2.1}Webcomponents}{8}
-\contentsline {subsection}{\numberline {3.2.2}Polymer}{8}
-\contentsline {subsection}{\numberline {3.2.3}React}{8}
+\contentsline {subsection}{\numberline {3.2.2}Polymer}{9}
+\contentsline {subsection}{\numberline {3.2.3}React}{9}
 \contentsline {section}{\numberline {3.3}Tecnolog\IeC {\'\i }a para hacer la build}{9}
-\contentsline {subsection}{\numberline {3.3.1}Gulp/Grunt}{9}
-\contentsline {subsection}{\numberline {3.3.2}Webpack}{9}
-\contentsline {section}{\numberline {3.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{10}
-\contentsline {subsection}{\numberline {3.4.1}Generadores de contenido est\IeC {\'a}tico}{10}
-\contentsline {subsection}{\numberline {3.4.2}Hexo}{10}
-\contentsline {chapter}{\numberline {4}Objetivos y fases}{11}
-\contentsline {section}{\numberline {4.1}Objetivos}{11}
-\contentsline {section}{\numberline {4.2}Fases}{11}
-\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{13}
-\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{13}
-\contentsline {subsection}{\numberline {5.1.1}Analizadores l\IeC {\'e}xicos}{13}
-\contentsline {subsection}{\numberline {5.1.2}Lex}{13}
-\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{13}
-\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{14}
-\contentsline {subsection}{\numberline {5.3.1}An\IeC {\'a}lisis de la interfaz original}{14}
-\contentsline {subsection}{\numberline {5.3.2}El nuevo dise\IeC {\~n}o web}{14}
-\contentsline {subsection}{\numberline {5.3.3}El nuevo dise\IeC {\~n}o por componentes}{15}
-\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - l\IeC {\'o}gica desarrollada}{15}
-\contentsline {subsection}{\numberline {5.4.1}Realizaci\IeC {\'o}n de los bindings}{15}
-\contentsline {section}{\numberline {5.5}Migraci\IeC {\'o}n de la documentaci\IeC {\'o}n}{15}
-\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades }{17}
-\contentsline {section}{\numberline {6.1}Parseador}{17}
-\contentsline {section}{\numberline {6.2}Modo de ejecuci\IeC {\'o}n en lotes}{18}
-\contentsline {section}{\numberline {6.3}Hist\IeC {\'o}rico}{18}
-\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{20}
-\contentsline {section}{\numberline {7.1}Conclusiones}{20}
-\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{20}
-\contentsline {chapter}{\numberline {8}Summary and Conclusions }{22}
-\contentsline {section}{\numberline {8.1}Summary}{22}
-\contentsline {section}{\numberline {8.2}Future work lines}{22}
-\contentsline {chapter}{\numberline {9}Presupuesto}{24}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{25}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{25}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{25}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{25}
+\contentsline {subsection}{\numberline {3.3.1}Gulp/Grunt}{10}
+\contentsline {subsection}{\numberline {3.3.2}Webpack}{10}
+\contentsline {section}{\numberline {3.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{11}
+\contentsline {subsection}{\numberline {3.4.1}Generadores de contenido est\IeC {\'a}tico}{11}
+\contentsline {subsection}{\numberline {3.4.2}Hexo}{11}
+\contentsline {chapter}{\numberline {4}Objetivos y fases}{12}
+\contentsline {section}{\numberline {4.1}Objetivos}{12}
+\contentsline {section}{\numberline {4.2}Fases}{12}
+\contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{14}
+\contentsline {section}{\numberline {5.1}Migraci\IeC {\'o}n del n\IeC {\'u}cleo de la aplicaci\IeC {\'o}n}{14}
+\contentsline {subsection}{\numberline {5.1.1}Analizadores l\IeC {\'e}xicos}{14}
+\contentsline {subsection}{\numberline {5.1.2}Lex}{14}
+\contentsline {section}{\numberline {5.2}Migraci\IeC {\'o}n de la m\IeC {\'a}quina superescalar}{17}
+\contentsline {section}{\numberline {5.3}Desarrollo de la interfaz}{17}
+\contentsline {subsection}{\numberline {5.3.1}An\IeC {\'a}lisis de la interfaz original}{17}
+\contentsline {subsection}{\numberline {5.3.2}El nuevo dise\IeC {\~n}o web}{18}
+\contentsline {subsection}{\numberline {5.3.3}El nuevo dise\IeC {\~n}o por componentes}{18}
+\contentsline {section}{\numberline {5.4}Integraci\IeC {\'o}n interfaz - l\IeC {\'o}gica desarrollada}{18}
+\contentsline {subsection}{\numberline {5.4.1}Realizaci\IeC {\'o}n de los bindings}{18}
+\contentsline {section}{\numberline {5.5}Migraci\IeC {\'o}n de la documentaci\IeC {\'o}n}{18}
+\contentsline {chapter}{\numberline {6}Ampliaci\IeC {\'o}n de funcionalidades}{20}
+\contentsline {section}{\numberline {6.1}Parseador}{20}
+\contentsline {section}{\numberline {6.2}Modo de ejecuci\IeC {\'o}n en lotes}{21}
+\contentsline {section}{\numberline {6.3}Hist\IeC {\'o}rico}{21}
+\contentsline {chapter}{\numberline {7}Conclusiones y l\IeC {\'\i }neas futuras }{23}
+\contentsline {section}{\numberline {7.1}Conclusiones}{23}
+\contentsline {section}{\numberline {7.2}L\IeC {\'\i }neas futuras}{23}
+\contentsline {chapter}{\numberline {8}Summary and Conclusions }{25}
+\contentsline {section}{\numberline {8.1}Summary}{25}
+\contentsline {section}{\numberline {8.2}Future work lines}{25}
+\contentsline {chapter}{\numberline {9}Presupuesto}{27}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{28}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{28}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{28}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{28}

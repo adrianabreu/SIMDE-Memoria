@@ -5,6 +5,37 @@ se han valorado múltiples alternativas con el objetivo de agilizar la realizaci
 
 \subsection{Coffescript}
 
+Coffescript es un pequeño lenguaje que se compila en Javascript, su objetivo era mejorar la legibilidad 
+y concisión de Javascript añadiendo varios \textit{syntactic sugars} inspirados en otros lenguajes como
+\textit{Ruby} o \textit{Python}.
+
+\bigskip
+Coffescript es un lenguaje con un largo recorrido, apareciendo a finales del año 2009. Y tiene soporte por
+parte de \textit{Ruby on Rails} y \textit{Play framework}.
+
+\bigskip 
+Coffescript podría ser la opción ideal para agilizar le desarrollo debido a la similitud de sintaxis con 
+Ruby.
+
+\begin{lstlisting}
+class Animal
+  constructor: (@name) ->
+
+  alive: ->
+    false
+
+class Parrot extends Animal
+  constructor: ->
+    super("Parrot")
+
+  dead: ->
+    not @alive()
+\end{lstlisting}
+
+\bigskip
+Sin embargo, la opción de Coffescript ha sido desestimada en gran medida por su decreciente popularidad
+y la poca certeza del futuro que tomará el lenguaje.
+
 \subsection{Dart}
 
 Dart es un lenguaje de código abierto desarrollado por Google que permite desarrollador aplicaciones web, móvil, 
@@ -15,19 +46,10 @@ Se ha considerado en el desarrollo de esta aplicación porque es un lenguaje ori
 sintaxis similar a C\#. Además, aunque Google Chrome tiene una máquina virtual nativa para este lenguaje, es posible
 transpilar el código a Javascript para los navegadores que no tiene este soporte nativo.
 
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{images/cap3/polymerlogo.eps}
-\caption{Ejemplo}
-\label{fig:PolymerLogo}
-\end{center}
-\end{figure}
-
-Tras razonar detenidamente, Dart ha quedado descartado por diversas razones:
-
-\begin{enumerate}
-\item no va
-\end{enumerate} 
+\bigskip
+Tras razonar detenidamente, ha pesar de lo atractivo del lenguaje, Dart ha quedado descartado por 
+una razón de peso y es que se trata de un lenguaje totalmente diferente y su uso es mayoritariamente
+por parte de Google.
 
 \subsection{Typescript}
 

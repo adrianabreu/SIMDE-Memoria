@@ -1,38 +1,58 @@
-Aunque este proceso pueda parecer trivial, para poder construir el empaquetado final de esta aplicación
-deben ejecutarse múltiples tareas:
+Debido a la complejidad de las aplicaciones web modernas, es necesario 
+realizar una serie de pasos intermedios entre el código original y 
+el resultado final de la apliación. Para el caso de este proyecto, se debe:
 
-\begin{enumerate}
+\begin{itemize}
 
 \item Compilar el código typescript a javascript.
 
 \item Compilar el código .tsx a .jsx.
 
-\item Resolver los imports de los múltiples componentes.
+\item Resolver las importaciones de dependencias, tanto de la lógica
+como de los componentes.
 
 \item Procesar el código sass y convertirlo en css.
 
-\end{enumerate}
+\end{itemize}
 
 \subsection{Gulp/Grunt}
 
-Con la aparición de NodeJS, se crearon 
+La primera tendencia -debido a su gran extensión- sería utilizar 
+lo que se conoce como un \textit{task runner}. Actualmente, dos de los 
+más conocidos son \textbf{Gulp} y \textbf{Grunt}.
+
+\bigskip
+Ambos están basados en NodeJs y son compatibles entre sí en gran medida.
+Su funcionamiento es sencillo, en un gruntfile o gulpfile se definen las tareas a
+ejecutar, seleccionando los ficheros de fuente sobre los que actuar -si cabe- y la tarea 
+a realizar.
+
+\bigskip
+Existen muchisimos plugins desarrollados que permiten hacer todo tipo de tareas, desde traducir
+markdown hasta minimizar el contenido de los ficheros de estilos y de javascript.
+
+\bigskip
+Sin embargo, a pesar de que esta opción era altamente atractiva debido 
+a su robustez, se ha optado por probar una solución aún más moderna, \textbf{webpack}.
 
 \subsection{Webpack}
-\bigskip
-Una de las grandes herramientas de 2016 que acabó por cambiar el flujo de muchos 
-desarrolladores web y desbancó a tasks runners como Grunt y Gulp fue webpack.
 
-\bigskip
-Para poder integrar todo este código y resolver el problema de los múltiples imports 
-era necesario utilizar algún tipo de herramienta de gestión de paquetes, como por ejemplo 
-commonjs, o requirejs. Sin embargo, webpack se encarga de resolver todas estas 
-dependencias y crear statics assets para el navegador.
+Webpack es un module bundler para aplicaciones de Javascript modernas.
+Cuando webpack procesa la aplicación, construye un grafo de dependencias
+incluyendo todos los módulos.
 
-\bigskip
-Uno de los mayores puntos a favor es que es altamente configurable, existen muchísimos 
-plugins de webpack que permiten hacer preprocesamiento de css, tratamiento de imágenes,
-minimización codigo, étctera.. 
+\bigskip 
+El funcionamiento de webpack puede ser toscamente resumido en:
 
-\bigskip
-Actualmente en la aplicación de SIMDE webpack  se encarga de compilar el código de 
-typescript, el código de react y de generar un bundle 
+\begin{itemize}
+
+\item Partiendo de un punto de entrada, una serie de reglas activan una serie de loaders
+para procesar los distintos tipos de ficheros. 
+
+\item Para el caso de tareas algo más personalizadas y/o complejas, se utilizan plugins especificos.
+
+\end{itemize}
+
+Como resultado final se obtiene una serie de paquetes que contienen todas las dependencias. +
+
+\bigskip 

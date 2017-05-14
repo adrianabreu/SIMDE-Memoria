@@ -1,3 +1,9 @@
 \subsection{Realización de los bindings}
-Uno de los puntos a favor de haber utilizado este tipo de librerías es que su elevada flexibilidad
-nos otorga cierto grado de 
+Uno de los puntos a favor de haber utilizado este tipo de librerías es que su elevada flexibilidad.
+Mientras que el código javascript en sí no altere los elementos propios de los componentes de React, 
+no hay problema.
+
+\bigskip
+Para realizar la integración entre la lógica y la interfaz se ha recurrido al uso de los callbacks.
+Cuando un componente se renderiza, se suscribe a un objeto general que concentra todos los componentes
+y los pasos o "tics" se invocan mediante el uso de los callbacks.

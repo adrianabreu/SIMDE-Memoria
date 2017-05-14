@@ -1,6 +1,6 @@
 Con el objetivo de mejorar el rendimiento de una computadora es necesario superar la barrera
-de 1 CPI \textit{(ciclo por instrucción)}, para ello, se debe aumentar el grado de emisión de 
-instrucciones.
+de 1 ciclo por instrucción -el límite máximo que se puede conseguir con la técnica de segmentación-,
+para ello, se debe conseguir ejecutar varias instrucciones diferentes de forma paralela.
 
 \bigskip
 Para alcanzar este propósito se deben considerar varios factores:
@@ -9,9 +9,10 @@ Para alcanzar este propósito se deben considerar varios factores:
 
 \item Se debe proveer de una estructura de emisión.
 
-\item Se deben detectar los posibles riesgos asociados. 
+\item Se deben detectar los posibles riesgos asociados (tanto entre las instrucciones que se van a 
+emitir entre sí como entre las que se van a emitir y las que ya están ejecutándose). 
 
-\item Se debe hacer un \textit{scheduling}.
+\item Se debe hacer una planificación.
 
 \end{enumerate}
 
@@ -20,20 +21,22 @@ Existen dos grandes técnicas para conseguir explotar este paralelismo a nivel d
 
 \begin{enumerate}
 
-\item \textbf{Planificación dinámica}
+\item \textbf{Planificación dinámica}: La responsabilidad de detectar y resolver los problemas recae
+en el propio hardware.
 
-\item \textbf{Planificación estática}
+\item \textbf{Planificación estática}: Delega las decisiones en el software. Manteniendo un hardware
+relativamente simple.
 
 \end{enumerate}
 
 \subsection{Superescalar}
 
-Las máquinas Superescalares hacen uso de la planificación dinámica, es decir, el hardware 
-en si es el encargado de mantener la emisión de múltiples instrucciones, decodificarlas y 
+La mayoría de máquinas Superescalares hacen uso de la planificación dinámica, es decir, el hardware 
+en sí mismo es el encargado de mantener la emisión de múltiples instrucciones, decodificarlas y 
 ejecutarlas.
 
 \bigskip
-Este tipo de parlaleismo conlleva un enorme grado de complejidad, ya que se deben abordar 
+Este tipo de paralekismo conlleva un enorme grado de complejidad, ya que se deben abordar 
 todos estos problemas:
 
 \begin{enumerate}
@@ -45,9 +48,13 @@ todos estos problemas:
 \end{enumerate}
 
 \bigskip
-Para resolver los problemas de dependencias se utiliza el algoritmo de Tomasulo.
+Para resolver los problemas de dependencias se utiliza el denominado algoritmo de Tomasulo.
+Este algoritmo nació originnalmente con el objetivo de controlar las dependencias en la unidad
+funcional de punto flotante de la máquina 360/91 de IBM.
 
-CITAR ALGORITMO TOMASULO 
+\bigskip
+Mediante un seguimiento de los operandos y renombrado de registros se eliminaron los tres tipos 
+de dependencias \textit{Read After Write}, \textit{Write After Read} y \textit{Write After Write}. 
 
 \subsection{VLIW}
 

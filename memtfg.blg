@@ -12,34 +12,34 @@ Warning--can't use both author and editor fields in Swa82
 Warning--empty chapter and pages in Swa82
 You've used 8 entries,
             2118 wiz_defined-function locations,
-            547 strings with 4771 characters,
-and the built_in function-call counts, 1971 in all, are:
-= -- 192
-> -- 61
+            547 strings with 4825 characters,
+and the built_in function-call counts, 2007 in all, are:
+= -- 195
+> -- 67
 < -- 0
-+ -- 28
-- -- 18
-* -- 127
-:= -- 328
++ -- 30
+- -- 20
+* -- 131
+:= -- 334
 add.period$ -- 22
 call.type$ -- 8
-change.case$ -- 31
+change.case$ -- 32
 chr.to.int$ -- 0
 cite$ -- 15
 duplicate$ -- 82
 empty$ -- 180
-format.name$ -- 18
-if$ -- 405
+format.name$ -- 20
+if$ -- 412
 int.to.chr$ -- 0
 int.to.str$ -- 8
 missing$ -- 7
 newline$ -- 41
 num.names$ -- 12
-pop$ -- 45
+pop$ -- 46
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 26
 quote$ -- 0
-skip$ -- 50
+skip$ -- 51
 stack$ -- 0
 substring$ -- 117
 swap$ -- 8

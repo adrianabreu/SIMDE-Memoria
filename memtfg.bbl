@@ -18,15 +18,15 @@ A.~Bayliss, C.~I. Goldstein, and E.~Turkel.
 \newblock An iterative method for the {H}elmholtz equation.
 \newblock {\em J. Comp. Phys.}, 49:443--457, 1983.
 
-\bibitem{Darwin:1859}
-C.~Darwin.
-\newblock {\em {The Origin Of Species}}.
-\newblock November 1859.
-
 \bibitem{Gold3}
 C.~Goldstein.
 \newblock Multigrid methods for elliptic problems in unbounded domains.
 \newblock {\em SIAM J. Numer. Anal.}, 30:159--183, 1993.
+
+\bibitem{Darwin:1859}
+David Patterson and John~L. Hennessy.
+\newblock {\em {Computer Architecture - A Quantitative Approach}}.
+\newblock September 2011.
 
 \bibitem{Swa82}
 P.~Swarztrauber.
