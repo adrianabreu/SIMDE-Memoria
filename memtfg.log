@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  14 MAY 2017 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  22 MAY 2017 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,7 +609,12 @@ Overfull \hbox (18.69669pt too wide) in paragraph at lines 21--18
 
 ) [5]
 Cap\'{\i }tulo 3.
-(./chapters/cap3.tex (./chapters/cap3/1-lenguaje-logica.tex
+(./chapters/cap3.tex (./chapters/cap3/1-objetivos.tex)
+(./chapters/cap3/2-fases.tex [6
+
+])) [7]
+Cap\'{\i }tulo 4.
+(./chapters/cap4.tex (./chapters/cap4/1-lenguaje-logica.tex
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -617,24 +622,19 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
- [6
+ [8
 
 ]
 File: images/cap3/typescript.eps Graphic file (type eps)
 
-<images/cap3/typescript.eps>)
-Overfull \hbox (6.88316pt too wide) in paragraph at lines 11--11
+<images/cap3/typescript.eps> [9])
+Overfull \hbox (6.88316pt too wide) in paragraph at lines 18--18
 []\OT1/cmr/bx/n/20.74 Tecnolog^^S^^Pa para la in-te-graci^^Son mod-e-lo vista 
  []
 
-(./chapters/cap3/2-tecnologia-interfaz.tex [7] [8])
-(./chapters/cap3/3-tecnologia-ensamblaje.tex [9])
-(./chapters/cap3/4-tecnologia-documentacion.tex [10])) [11]
-Cap\'{\i }tulo 4.
-(./chapters/cap4.tex (./chapters/cap4/1-objetivos.tex)
-(./chapters/cap4/2-fases.tex [12
-
-])) [13]
+(./chapters/cap4/2-tecnologia-interfaz.tex [10] [11])
+(./chapters/cap4/3-tecnologia-ensamblaje.tex [12])
+(./chapters/cap4/4-tecnologia-documentacion.tex [13])) [14]
 Cap\'{\i }tulo 5.
 (./chapters/cap5.tex (./chapters/cap5/1-migracion-nucleo.tex
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
@@ -644,7 +644,7 @@ Overfull \hbox (167.72127pt too wide) in paragraph at lines 35--36
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[14
+[15
 
 ]
 Overfull \hbox (6.98175pt too wide) in paragraph at lines 36--37
@@ -656,7 +656,7 @@ Overfull \hbox (91.58147pt too wide) in paragraph at lines 48--50
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[15]
+[16]
 Overfull \hbox (49.28163pt too wide) in paragraph at lines 98--99
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -671,46 +671,46 @@ Overfull \hbox (74.66156pt too wide) in paragraph at lines 104--105
 [][][][][][][][][][][][][][][][][][] 
  []
 
-[16]) (./chapters/cap5/2-migracion-superescalar.tex)
-(./chapters/cap5/3-desarrollo-interfaz.tex [17])
+[17]) (./chapters/cap5/2-migracion-superescalar.tex)
+(./chapters/cap5/3-desarrollo-interfaz.tex [18])
 (./chapters/cap5/4-integracion-interfaz-logica.tex)
-(./chapters/cap5/5-migracion-documentacion.tex [18])) [19]
+(./chapters/cap5/5-migracion-documentacion.tex [19])) [20]
 Cap\'{\i }tulo 6.
 (./chapters/cap6.tex (./chapters/cap6/1-errores-parseador.tex
 File: images/cap6/errorsimde.eps Graphic file (type eps)
 
-<images/cap6/errorsimde.eps> [20
+<images/cap6/errorsimde.eps> [21
 
 ]
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
  <images/cap6/nuevoerrorsimde.eps>)
 (./chapters/cap6/2-modo-ejecucion-continua.tex)
-(./chapters/cap6/3-historial.tex [21])) [22]
+(./chapters/cap6/3-historial.tex [22])) [23]
 Cap\'{\i }tulo 7.
-(./chapters/cap7.tex [23
+(./chapters/cap7.tex [24
 
-]) [24]
+]) [25]
 Cap\'{\i }tulo 8.
-(./chapters/cap8.tex [25
+(./chapters/cap8.tex [26
 
-]) [26]
+]) [27]
 Cap\'{\i }tulo 9.
-(./chapters/cap9.tex (./tables/presupuesto.tex)) [27
+(./chapters/cap9.tex (./tables/presupuesto.tex)) [28
 
 ]
 Ap\'endice A.
-(./chapters/apendice1.tex) (./memtfg.bbl [28
+(./chapters/apendice1.tex) (./memtfg.bbl [29
 
-]) [29
+]) [30
 
 ] (./memtfg.aux) ) 
 Here is how much of TeX's memory you used:
- 4379 strings out of 494954
- 58182 string characters out of 6181004
+ 4385 strings out of 494954
+ 58270 string characters out of 6181004
  141817 words of memory out of 5000000
- 7489 multiletter control sequences out of 15000+600000
+ 7495 multiletter control sequences out of 15000+600000
  12235 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,10n,32p,311b,1662s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,32p,247b,1662s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (39 pages, 81128 bytes).
+Output written on memtfg.dvi (40 pages, 85584 bytes).

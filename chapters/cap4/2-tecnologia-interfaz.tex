@@ -1,0 +1,83 @@
+Desde el inicio del proyecto, se tenía claro que alguna librería se encargaría de realizar 
+por mí el tedioso proceso de manipular el DOM. Actualmente existen múltiples librerías 
+y frameworks que podían servir para realizar esta tarea, pero muchos de ellos (como por ejemplo Angular),
+son demasiado \textit{"rígidos"} y acaban condicionando la forma de desarrollar la aplicación, 
+lo cual resulta ser contraproducente.
+
+\subsection{Webcomponents}
+
+\bigskip
+Lo que la nueva versión de SIMDE necesitaba era aprovechar las características que ofrecen los
+\textit\textbf{Web Components}. Los Web Components son un conjunto de caracteŕisticas que se 
+están añadiendo a las especificaciones W3C de Html y del DOM.
+
+\bigskip 
+El objetivo de estas características es permitir crear componentes personalizados, reusables y 
+con su propia encapsulación. Esto se consigue a través de cuatro características principales:
+
+\begin{enumerate}
+
+\item \textbf{Elementos personalizados}: Esta característica permite diseñar y utilizar nuevos tipos 
+de elementos del DOM.
+\item \textbf{Shadow DOM}: Esta característica permite al navegador incluir un subarbol de elementos del 
+DOM en el renderizado del documento pero \textbf{NO} se incluyen el DOM principal.
+\item \textbf{HTML Imports}: Esta característica permite incluir y reutilizar documentos HTML en otros 
+documentos HTML.
+\item \textbf{Plantillas HTML}: Esta característica permite declarar fragmentos de código de marcas que no
+se utilizan en el carga de la página pero que se pueden instanciar en tiempo de ejecución. 
+
+\end{enumerate}
+
+\subsection{Polymer}
+Esta librería fue la primera que hizo uso de los Web Components.Desarrollada por Google y anunciada en 
+el año 2013, Polymer permite aprovechar las características de los Web Components a través de los polyfills 
+-códigos que implementan características en los navegadores que no soportan las mismas de forma nativa-.
+\textit{(Comúnmente se conoce como polyfill a la librería que implementa el estándar de HTML5)}.
+
+\bigskip
+A pesar de la revolución que marcó, Polymer no fue ampliamente acogida por la comunidad de desarrolladores 
+-quizás por ser una librería adelantada a su tiempo-. Y hoy en día nos encontramos con otro intento por 
+parte de ganar peso en la comunidad: Polymer 2.0. Esta nueva versión incorpora el soporte de las clases de ES6
+y además permite utilizar el método de la especificación de custom elements v1 para definir elementos.
+
+\bigskip
+Aunque las mejoras que incorpora Polymer 2.0 la hacen una opción totalmente válida y viable, aún no 
+tiene una comunidad lo suficientemente sólida con lo que esto acaba traduciéndose en una menor 
+cantidad de recursos disponibles.
+
+\subsection{React}
+La empresa autora de esta librería de código abierto, Facebook, la define como: “It’s a Javascript library for building UI’s”.
+
+\bigskip
+Pero realmente aunque esta declaración es válida, esto no es tan sencillo, React intenta resolver el problema
+ del refresco del DOM de forma novedosa: Simulandolo completamente y solo modificando el DOM \textit{"verdadero"} cuando sea necesario.
+
+\bigskip
+React utiliza un híbrido entre html y javascript denominado jsx, como también tiene soporte para 
+Typescript, en este caso utilizamos tsx, y se basa en un “unidirectonial data-flow”. 
+
+\bigskip
+Los componentes de React tienen un método render, que devuelve una estructura de DOM virtual, la cual, 
+mediante cambios de estado se muestra en el DOM real. Y mediante la aplicación de teoría de grafos y uso de árboles,
+solo se realizarán las manipulaciones mínimas del DOM.
+
+\bigskip
+React es ampliamente utilizada por muchísimas empresas gracias a su capacidad de integrarse con otras librerías. 
+Por ejemplo Microsoft mantuvo parte de la página en jQuery mientras iba integrando React.
+
+\bigskip
+Otro ejemplo de grandes empresas que hagan uso de esta librería son: AirBnB, Netflix, Wallmart… 
+
+\bigskip
+Y muchas de ellas han contribuido al ecosistema de React, ya sea mediante guías de estilo, conjunto de componentes, patrones...
+
+\bigskip
+Además,la comunidad de usuarios es increíblemente activa, por ejemplo el mayor representante es Dan Abramov, 
+creador de Redux (una implementación de gestión de estados), desarrollador de la nueva implementación de 
+React \textit{(react-fiber)}, empleado de Facebook, participante en muchas conferencias y además autor de 
+múltiples herramientas como \textit{react-hot-loader}. 
+
+\bigskip
+Debido a todo lo anterior y a que además, React tiene una excelente integración con Typescript utilizando 
+el formato .tsx, queda claro que es la mejor opción posible para esta aplicación. React es una librería 
+desarrollada por Facebook para construir interfaces.

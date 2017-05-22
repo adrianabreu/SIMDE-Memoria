@@ -5,19 +5,20 @@ para ello, se debe conseguir ejecutar varias instrucciones diferentes de forma p
 \bigskip
 Para alcanzar este propósito se deben considerar varios factores:
 
-\begin{enumerate}
+\begin{itemize}
 
-\item Se debe proveer de una estructura de emisión.
+\item Se debe proveer de una estructura capaz de emitir múltiples instrucciones.
 
 \item Se deben detectar los posibles riesgos asociados (tanto entre las instrucciones que se van a 
 emitir entre sí como entre las que se van a emitir y las que ya están ejecutándose). 
 
-\item Se debe hacer una planificación.
+\item Se debe hacer una planificación para evitar que sucedan los posibles riesgos de datos o 
+de estructuras, y también optimizar el funcionando de la máquina.
 
-\end{enumerate}
+\end{itemize}
 
 \bigskip
-Existen dos grandes técnicas para conseguir explotar este paralelismo a nivel de instrucción:
+Existen dos grandes técnicas para conseguir explotar el paralelismo a nivel de instrucción:
 
 \begin{enumerate}
 
@@ -36,19 +37,7 @@ en sí mismo es el encargado de mantener la emisión de múltiples instrucciones
 ejecutarlas.
 
 \bigskip
-Este tipo de paralekismo conlleva un enorme grado de complejidad, ya que se deben abordar 
-todos estos problemas:
-
-\begin{enumerate}
-
-\item Capturar y decodificar más instrucciones en un ciclo.
-
-\item Detectar dependencias entre las instrucciones capturas y las que se ejecutan.
-
-\end{enumerate}
-
-\bigskip
-Para resolver los problemas de dependencias se utiliza el denominado algoritmo de Tomasulo.
+Para resolver los problemas de dependencias se utiliza una modificación del algoritmo de Tomasulo.
 Este algoritmo nació originnalmente con el objetivo de controlar las dependencias en la unidad
 funcional de punto flotante de la máquina 360/91 de IBM.
 
@@ -56,14 +45,18 @@ funcional de punto flotante de la máquina 360/91 de IBM.
 Mediante un seguimiento de los operandos y renombrado de registros se eliminaron los tres tipos 
 de dependencias \textit{Read After Write}, \textit{Write After Read} y \textit{Write After Write}. 
 
+\bigskip
+Las máquinas superescalares incorporan nuevas estructuras de hardware como el ReorderBuffer para
+permitir la ejecución fuera de orden.
+
 \subsection{VLIW}
 
-A diferencia de las máquinas superescalares, las máquinas \textit{Very Long Instruction Word},
+A diferencia de las máquinas Superescalares, las máquinas \textit{Very Long Instruction Word},
 mantienen un hardware simple de emisión y todas las responsabilidades caen en el compilador.
 
 \bigskip
 Para mantener este hardware simple, estas máquinas trabajan como su propio nombre indica, con
-un tamaño de palabra muy grande, es decir, las instrucciones de la máquina son un conjunto
+un tamaño de palabra muy grande, es decir, las instrucciones de la máquina son un "grupo"
 de instrucciones normales que pueden ejecutarse en paralelo.
 
 \bigskip

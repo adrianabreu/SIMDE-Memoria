@@ -1,14 +1,14 @@
 \select@language {spanish}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Emulador original de SIMDE}}{4}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Typescript como superconunto de Javascript}}{8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Simulador original SIMDE}}{4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Typescript como superconunto de Javascript}}{10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Notificacion de error original SIMDE}}{20}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Ejemplos de errores en la nueva versi\IeC {\'o}n de simde}}{21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Notificacion de error original SIMDE}}{21}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Ejemplos de errores en la nueva versi\IeC {\'o}n de simde}}{22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
