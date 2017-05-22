@@ -37,22 +37,40 @@ a su robustez, se ha optado por probar una solución aún más moderna, \textbf{
 
 \subsection{Webpack}
 
-Webpack es un module bundler para aplicaciones de Javascript modernas.
+Webpack es un \textit{empaquetador de módulos} para aplicaciones de Javascript modernas.
 Cuando webpack procesa la aplicación, construye un grafo de dependencias
-incluyendo todos los módulos.
+incluyendo todos los módulos y luego lo empaqueta en orden. 
+
+\bigskip
+Webpack posee de forma intrínseca diversas características interensantes tales como el 
+poder ejecutar un servidor de desarrollo que aplica \textit{hot reloading} sobr el código 
+sin requerir refrescar la página o el poder separar el código css/js de terceros para el 
+entorno de producción. 
 
 \bigskip 
-El funcionamiento de webpack puede ser toscamente resumido en:
+El funcionamiento de webpack puede ser extremadamente resumido y simplificado en:
 
 \begin{itemize}
 
-\item Partiendo de un punto de entrada, una serie de reglas activan una serie de loaders
-para procesar los distintos tipos de ficheros. 
+\item Partiendo de un punto de entrada, una serie de reglas sobre los distintos tipos de ficheros
+activan una serie de \textit{loaders} correspondientes para procesarlos. 
 
-\item Para el caso de tareas algo más personalizadas y/o complejas, se utilizan plugins especificos.
+\item Estos loaders pueden ser concatenados entre sí para obtener el resultado deseado, por ejemplo
+podemos traducir el código typescript a es6 para luego traducir este código junto a otro a es5 mediante
+babel.
+
+\item Se aplican, si fuera necesario, el uso de plugins para tareas más complejas que se quieren aplicar sobre
+todos los paquetes.
 
 \end{itemize}
 
-Como resultado final se obtiene una serie de paquetes que contienen todas las dependencias. +
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/cap4/webpack.eps}
+\caption{Imagen descriptiva de Webpack}
+\label{fig:Imagen descriptiva de Webpack}
+\end{center}
+\end{figure}
 
-\bigskip 
+
+Como resultado final se obtiene una serie de paquetes que contienen todas las dependencias resueltas.

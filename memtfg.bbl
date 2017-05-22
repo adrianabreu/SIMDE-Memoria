@@ -1,37 +1,49 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{URL:XML}
-{ACM LaTeX Style}.
-\newblock http://www.acm.org/publications/latex\_style/.
+\bibitem{Grunt}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
 
-\bibitem{Fujitsu}
-{FACOM OS IV SSL II USER'S GUIDE, 99SP0050E5}.
-\newblock Technical report, 1990.
+\bibitem{Gulp}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
 
-\bibitem{Bailey}
-D.~H. Bailey and P.~Swarztrauber.
-\newblock The fractional {F}ourier transform and applications.
-\newblock {\em SIAM Rev.}, 33(3):389--404, 1991.
+\bibitem{Dart}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
 
-\bibitem{Bay1}
-A.~Bayliss, C.~I. Goldstein, and E.~Turkel.
-\newblock An iterative method for the {H}elmholtz equation.
-\newblock {\em J. Comp. Phys.}, 49:443--457, 1983.
+\bibitem{Coffescript}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
 
-\bibitem{Gold3}
-C.~Goldstein.
-\newblock Multigrid methods for elliptic problems in unbounded domains.
-\newblock {\em SIAM J. Numer. Anal.}, 30:159--183, 1993.
+\bibitem{Polymer}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
 
-\bibitem{Darwin:1859}
+\bibitem{Polyfill}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
+
+\bibitem{Webcomponents}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
+
+\bibitem{Typescript}
+{Grunt The Javascript Runner}.
+\newblock https://gruntjs.com/.
+
+\bibitem{React}
+{Página oficial de React}.
+\newblock https://facebook.github.io/react/.
+
+\bibitem{Webpack}
+{webpack module bundler}.
+\newblock https://webpack.github.io/.
+
+\bibitem{Hennessy:2011}
 David Patterson and John~L. Hennessy.
 \newblock {\em {Computer Architecture - A Quantitative Approach}}.
 \newblock September 2011.
-
-\bibitem{Swa82}
-P.~Swarztrauber.
-\newblock {\em Vectorizing the {FFTs}}.
-\newblock Academic Press, New York, 1982.
 
 \bibitem{Ta84}
 S.~Ta\'asan.
