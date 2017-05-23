@@ -6,43 +6,42 @@
 \section{Summary}
 \label{8:sec:1}
 
-Con el desarrollo de este trabajo se ha conseguido disponer una nueva versión
-del simulador de paralelismo a nivel de instrucción SIMDE.
+With the development of this work we have now available a new versión of
+the Instruction Level Paralelism's simulator SIMDE.
 
-Se ha visto además que las múltiples herramientas y tecnologías disponibles hoy
-día (los nuevos lenguajes transpilables a javascript, los web components, las 
-herramientas para la distribución), permiten elaborar y diseñar con relativa
-facilidad aplicaciones que se salen de la norma.
+It has been demonstrated that the diversity of tools and techologies available today (such as 
+the new languages for the web, the webcomponents and the building tools), make possible
+to develop and design with realitve easiness complex applications.
 
-Es necesario recordad, que como en todo proceso de software, el desarrollo de una 
-aplicación esta vivo, sujeto a cambios y que dado el impresionante ritmo al que
-evoluciona el mundo de la web, quizás este trabajo sea un pequeño anexo al pie 
-de página de lo que esta aplicación pueda representar.
+It is important to remember that as in every software development, the develop of 
+a program is a process that is alive, being able to suffer changes, and since the 
+exhausting rythm that the web world is following, maybe this work will be no more
+that a little footn note at what it may be able to become.
 
 %---------------------------------------------------------------------------------
 \section{Future work lines}
 \label{8:sec:2}
 
-Tras el desarrollo de este trabajo se abren varias líneas futuras: 
+After the development of this work, there are many future lines open: 
 
 \begin{itemize}
 
-\item Implementación de la máquina VLIW: Esta línea no resulta sorprendente. Con el desarrollo de este 
-trabajo de fin de grado también se han implementado las estructuras básicas que se comparte con la máquina 
-VLIW. Esta línea de trabajo tiene la mayor prioridad, pues equipara la funcionalidad de la aplicación web de 
-SIMDE a la aplicación original.
+\item Implementation of the Very Long Instruction Word machine: This can not be a surprise. Based on the
+ initial design, the application is ready for evolve and get the same capabilities that original simulator.
+ This line has the highest priority of all.
 
-\item Realizar una mayor cantidad de test: En el mundo web no resulta sencillo realizar test 
-para los distintos casos, sin embargo, la lógica que acompaña al simulador es un gran candidato a 
-ser testeado. Con las bases asentadas en los tests realizados para la estructura de la cola y 
-del parseador del código, se podría extender este funcionamiento a pequeñas simulaciones.
+\item Make more test: In the web world is not easy to test for the multiple cases that can be presented,
+but this application is really focused on its core logic. Making it a great candidate for being tested. 
+There are a few test donde based on Ava, the futuristic test runner for typescript. Making more and 
+more concrete test would make of SIMDE a great and robust software.
 
-\item Realizar un tutorial de inicio: Ahora que SIMDE es una aplicación accesible para todo el mundo, sería
-deseable que no supusiera una barrera para cualquier usuario que sintiera la necesidad de probar 
+\item Integrate exercises with the application: SIMDE is an educational tool. And since it is web based, 
+it would be possible to design an environment where the application could interact with another app, 
+making it easier for autonomous students.
 
-\item Implementar un sistema de gestión de estados: En la aplicación actual se ha hecho un sistema
- de estados rudimentario debido al volumen de trabajo de sistemas como Redux y a las dificultades 
- que entrañan los Observables que vienen en un sistema como Mobx. En líneas futuras este sistema
-  rudimentario podría sustituirse por un sistema más robusto desarrollado por terceros.
+\item Implement a standard state management system: Right now, the application uses a handmade tool for
+management the states and allow time travelling. There are many options available but all of them requires
+a deep knowledge of the tool, which stays out of the amount of work of this project. In my opinion, the best 
+tool for this job would be Mobx, instead of Redux. Since it is object oriented and requires less boilerplate code.
 
 \end{itemize}

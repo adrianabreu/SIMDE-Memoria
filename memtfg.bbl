@@ -1,53 +1,96 @@
 \begin{thebibliography}{10}
 
-\bibitem{Grunt}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
-
-\bibitem{Gulp}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
-
-\bibitem{Dart}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
+\bibitem{GeneradoresEstaticos}
+{An Introduction to Static Site Generators}.
+\newblock \url{https://davidwalsh.name/introduction-static-site-generators}.
 
 \bibitem{Coffescript}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
+{Coffescript}.
+\newblock \url{http://coffeescript.org/}.
 
-\bibitem{Polymer}
+\bibitem{Dart}
+{Dart}.
+\newblock \url{https://www.dartlang.org/}.
+
+\bibitem{grunt}
 {Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
+\newblock \url{https://gruntjs.com/}.
+
+\bibitem{gulp}
+{gulpjs}.
+\newblock \url{http://gulpjs.com/}.
+
+\bibitem{Hexo}
+{Hexo - A fast, simple and porwerful blog framework}.
+\newblock \url{https://hexo.io/}.
+
+\bibitem{EvolutionJavascript}
+{Javascript Perfomance Evolution}.
+\newblock
+  \url{https://en.wikipedia.org/wiki/JavaScript_engine#Performance_evolution}.
 
 \bibitem{Polyfill}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
+{Polyfill - Wikipedia}.
+\newblock \url{https://en.wikipedia.org/wiki/Polyfill}.
 
-\bibitem{Webcomponents}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
+\bibitem{Polymer}
+{Polymer}.
+\newblock \url{https://www.polymer-project.org/}.
 
-\bibitem{Typescript}
-{Grunt The Javascript Runner}.
-\newblock https://gruntjs.com/.
-
-\bibitem{React}
+\bibitem{CoffescriptWiki}
 {Página oficial de React}.
 \newblock https://facebook.github.io/react/.
 
-\bibitem{Webpack}
+\bibitem{React}
+{Página oficial de React}.
+\newblock \url{https://facebook.github.io/react/}.
+
+\bibitem{ReactStyleGuide}
+{React's Style Guide}.
+\newblock \url{https://github.com/airbnb/javascript/tree/master/react}.
+
+\bibitem{ReSIM}
+{ReSim, a Trace-Driven, Reconfigurable ILP Processor Simulator }.
+\newblock
+  \url{https://infoscience.epfl.ch/record/138644/files/resim_date09.pdf}.
+
+\bibitem{SATSim}
+{SATSim: A Superscalar Architecture Trace Simulator Using Interactive
+  Animation}.
+\newblock \url{https://www.ncsu.edu/wcae/ISCA2000/submissions/wolff.pdf}.
+
+\bibitem{SESC}
+{SESC: SuperESCalar Simulator}.
+\newblock \url{http://iacoma.cs.uiuc.edu/~paulsack/sescdoc/}.
+
+\bibitem{ReactUsers}
+{Sitios que utilizan React}.
+\newblock \url{https://github.com/facebook/react/wiki/sites-using-react}.
+
+\bibitem{Typescript}
+{Typescript - Javascript that Scales}.
+\newblock \url{https://www.typescriptlang.org/}.
+
+\bibitem{VLIWDLX}
+{VLIW-DLX Simulator for Educational Purposes}.
+\newblock \url{https://www.ncsu.edu/wcae/ISCA2007/p8-becvar.pdf}.
+
+\bibitem{Webcomponents}
+{Web Components}.
+\newblock \url{https://www.webcomponents.org/}.
+
+\bibitem{webpack}
 {webpack module bundler}.
-\newblock https://webpack.github.io/.
+\newblock \url{https://webpack.github.io/}.
+
+\bibitem{SIMDE}
+Iván Castilla~Rodriguez.
+\newblock {\em Simulador didáctico de arquitectura de computadores}.
+\newblock PhD thesis, Universidad de La Laguna, 2004.
 
 \bibitem{Hennessy:2011}
 David Patterson and John~L. Hennessy.
 \newblock {\em {Computer Architecture - A Quantitative Approach}}.
 \newblock September 2011.
-
-\bibitem{Ta84}
-S.~Ta\'asan.
-\newblock {\em Multigrid Methods for Highly Oscillatory Problems}.
-\newblock PhD thesis, Weizmann Institute of Science, Rehovot, Israel, 1984.
 
 \end{thebibliography}

@@ -1,19 +1,25 @@
 Sería irrazonable embarcarse en la tarea de migrar SIMDE sin comprobar antes si ya existe alguna
 herramienta que se adapte a estas necesidades.
 
+\begin{table}[ht]
 \begin{center}
     \begin{tabular}{| l | p{12cm} |}
     \hline
     Simulador & Descripción \\ \hline
-    SESC & Simulador de máquinas Superescalares desarrollado en la Universidad de Illinois, posee
+    SESC \cite{SESC} & Simulador de máquinas Superescalares desarrollado en la Universidad de Illinois, posee
     características tan interesantes como el SMT, el CMP... Pero carece de interfaz gráfica. \\ \hline
-    ReSIM & Este simulador de máquinas Superescalares está basado en la ejecución por trazas. Se encuentra 
+    ReSIM \cite{ReSIM} & Este simulador de máquinas Superescalares está basado en la ejecución por trazas. Se encuentra 
     disponible para múltiples dispositivos Xilink. \\ \hline
-    VLIW-DLX & Basado en WinDLX y desarrollado en la Universidad de praga, intenta aportar un conocimiento 
+    SATSim \cite{SATSim} & Simulador de máquinas superescalares con traja que utiliza una simulación interactiva. \\ \hline
+    VLIW-DLX \cite{VLIWDLX} & Basado en WinDLX y desarrollado en la Universidad de praga, intenta aportar un conocimiento 
     detallado de las máquinas VLIW. \\ \hline
     \end{tabular}
+    \caption{Tabla comparativa de simuladores}
 \end{center}
+\end{table}
 
-Como vemos, aunque existen múltiples simuladores dentro de esta sección, ninguno cumple con el objetivo inicial,
-es más, lamentablemente, la mayoría de los simuladores tienen más de una década y NINGUNO de los mencionados se 
-encuentra disponible en versión web.
+Como vemos, aunque existen múltiples simuladores dentro de esta sección, 
+ninguno cumple con el objetivo inicial, muchos se centran más en estudiar los
+efectos de utilizar un tipo concreto de arquitectura implementando máquinas 
+específicas -incluso careciendo de interfaz-. Y el qué más se asemejaría a nuestro
+propósito, el SATSim, tiene más de una década.

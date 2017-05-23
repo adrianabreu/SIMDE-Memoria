@@ -23,8 +23,8 @@
 \contentsline {subsection}{\numberline {4.2.3}React}{12}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Tecnolog\IeC {\'\i }a para hacer la build}{14}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Gulp/Grunt}{14}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Webpack}{14}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{15}{section.4.4}
+\contentsline {subsection}{\numberline {4.3.2}Webpack}{15}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Tecnolog\IeC {\'\i }a para la documentaci\IeC {\'o}n}{16}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Generadores de contenido est\IeC {\'a}tico}{16}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Hexo}{16}{subsection.4.4.2}
 \contentsline {chapter}{\numberline {5}Desarrollo del proyecto}{17}{chapter.5}
@@ -50,7 +50,4 @@
 \contentsline {section}{\numberline {8.1}Summary}{28}{section.8.1}
 \contentsline {section}{\numberline {8.2}Future work lines}{28}{section.8.2}
 \contentsline {chapter}{\numberline {9}Presupuesto}{30}{chapter.9}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{31}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{31}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{31}{section.Alph1.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{31}{section.Alph1.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{30}{table.9.1}
