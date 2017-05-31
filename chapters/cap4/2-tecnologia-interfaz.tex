@@ -1,15 +1,16 @@
-Desde el inicio del proyecto, se tenía claro que alguna librería se encargaría de realizar 
-por mí el tedioso proceso de manipular el DOM. Actualmente existen múltiples librerías 
+Desde el inicio del proyecto, se tenía claro que alguna librería se encargaría de gestionar
+ el tedioso proceso de manipular el DOM. Actualmente existen múltiples librerías 
 y frameworks que podían servir para realizar esta tarea, pero muchos de ellos (como por ejemplo Angular),
-son demasiado \textit{"rígidos"} y acaban condicionando la forma de desarrollar la aplicación, 
+son demasiado \textit{rígidos} y acaban condicionando la forma de desarrollar la aplicación, 
 lo cual resulta ser contraproducente.
 
 \subsection{Webcomponents}
 
 \bigskip
-Lo que la nueva versión de SIMDE necesitaba era aprovechar las características que ofrecen los
-\textit\textbf{Web Components}. Los Web Components son un conjunto de caracteŕisticas que se 
-están añadiendo a las especificaciones W3C de Html y del DOM. \cite{Webcomponents}
+Una de las características más deseadas para el nuevo diseño de la interfaz de SIMDE era contar con
+un diseño basado en componentes. Siendo la caracteŕistica más deseada de todo el incorporar las nuevas 
+ventajas que ofrecen los \textit\textbf{Web Components}. Los Web Components son un conjunto de 
+caracteŕisticas que se están añadiendo a las especificaciones W3C de Html y del DOM. \cite{Webcomponents}
 
 \bigskip 
 El objetivo de estas características es permitir crear componentes personalizados, reusables y 
@@ -49,26 +50,27 @@ cantidad de recursos disponibles.
 La empresa autora de esta librería de código abierto, Facebook, la define como: “It’s a Javascript library for building UI’s”. \cite{React}
 
 \bigskip
-Pero realmente aunque esta declaración es válida, esto no es tan sencillo, React intenta resolver el problema
- del refresco del DOM de forma novedosa: Simulandolo completamente y solo modificando el DOM \textit{"verdadero"} cuando sea necesario.
+Pero realmente aunque esta declaración es válida, React no es tan algo tan simple. Para resolver el problema
+ de la modificación del DOM de una forma eficiente: Simulándolo esta estructura en memoria y aplicando diversos
+ algoritmos para calcular cuales serían los mínimos cambios necesarios a realizar sobre el \textit{DOM verdadero}
+ para representar los diversos cambios de estado.
+
+\bigskip
+React se basa en el uso de componentes, no en el sentido explícito de los \textit{Web Components} tal como los define 
+el éstandar de HTML5, sino como pequeños bloques reusables que incorporan cierta funcionalidad. Sin embargo,
+
 
 \bigskip
 React utiliza un híbrido entre html y javascript denominado jsx, como también tiene soporte para 
-Typescript, en este caso utilizamos tsx, y se basa en un “unidirectonial data-flow”. 
-
-\bigskip
-Los componentes de React tienen un método render, que devuelve una estructura de DOM virtual, la cual, 
-mediante cambios de estado se muestra en el DOM real. Y mediante la aplicación de teoría de grafos y uso de árboles,
-solo se realizarán las manipulaciones mínimas del DOM.
+Typescript, en este caso utilizamos tsx.
 
 \begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{images/cap4/react-virtual-dom.eps}
-\caption{Funcionamiento del DOM virtual de React}
+\caption{Funcionamiento del DOM virtual de React \cite{ReactVirtualDOM}}
 \label{fig:Funcionamiento del DOM virtual de React}
 \end{center}
 \end{figure}
-
 
 \bigskip
 React es ampliamente utilizada por muchísimas empresas gracias a su capacidad de integrarse con otras librerías. 

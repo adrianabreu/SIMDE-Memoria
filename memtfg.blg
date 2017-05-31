@@ -1,68 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: memtfg.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: memtfg.bib
-Warning--to sort, need author or key in SESC
-Warning--to sort, need author or key in ReSIM
-Warning--to sort, need author or key in SATSim
-Warning--to sort, need author or key in VLIWDLX
-Warning--to sort, need author or key in EvolutionJavascript
-Warning--to sort, need author or key in Coffescript
-Warning--to sort, need author or key in CoffescriptWiki
-Warning--to sort, need author or key in Dart
-Warning--to sort, need author or key in Typescript
-Warning--to sort, need author or key in Webcomponents
-Warning--to sort, need author or key in Polymer
-Warning--to sort, need author or key in Polyfill
-Warning--to sort, need author or key in React
-Warning--to sort, need author or key in ReactUsers
-Warning--to sort, need author or key in ReactStyleGuide
-Warning--to sort, need author or key in grunt
-Warning--to sort, need author or key in gulp
-Warning--to sort, need author or key in webpack
-Warning--to sort, need author or key in Hexo
-Warning--to sort, need author or key in GeneradoresEstaticos
+Warning--I didn't find a database entry for "npm"
+Warning--I didn't find a database entry for "Sass"
 Warning--empty publisher in Hennessy:2011
-You've used 22 entries,
-            2118 wiz_defined-function locations,
-            583 strings with 6034 characters,
-and the built_in function-call counts, 3613 in all, are:
-= -- 322
-> -- 40
+You've used 30 entries,
+            1791 wiz_defined-function locations,
+            567 strings with 6374 characters,
+and the built_in function-call counts, 3078 in all, are:
+= -- 225
+> -- 43
 < -- 0
-+ -- 28
-- -- 6
-* -- 127
-:= -- 414
-add.period$ -- 46
-call.type$ -- 22
-change.case$ -- 67
++ -- 34
+- -- 4
+* -- 17
+:= -- 302
+add.period$ -- 63
+call.type$ -- 30
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 161
-empty$ -- 497
-format.name$ -- 6
-if$ -- 871
+cite$ -- 31
+duplicate$ -- 158
+empty$ -- 529
+format.name$ -- 4
+if$ -- 792
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 30
 missing$ -- 2
-newline$ -- 93
-num.names$ -- 4
-pop$ -- 233
+newline$ -- 126
+num.names$ -- 3
+pop$ -- 255
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 0
 quote$ -- 0
-skip$ -- 132
+skip$ -- 113
 stack$ -- 0
-substring$ -- 110
-swap$ -- 22
+substring$ -- 0
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 86
-warning$ -- 21
-while$ -- 4
-width$ -- 24
-write$ -- 162
-(There were 21 warnings)
+type$ -- 0
+warning$ -- 1
+while$ -- 3
+width$ -- 32
+write$ -- 222
+(There were 3 warnings)

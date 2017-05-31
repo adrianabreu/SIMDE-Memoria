@@ -1,53 +1,22 @@
 \begin{thebibliography}{10}
 
-\bibitem{GeneradoresEstaticos}
-{An Introduction to Static Site Generators}.
-\newblock \url{https://davidwalsh.name/introduction-static-site-generators}.
+\bibitem{ReactVirtualDOM}
+{BUILDING ISOMORPHIC WEB APPLICATIONS - USING REACT AND NODE}.
+\newblock \url{http://donaldwhyte.co.uk/isomorphic-react-workshop/#/4/6}.
 
-\bibitem{Coffescript}
-{Coffescript}.
-\newblock \url{http://coffeescript.org/}.
+\bibitem{Hennessy:2011}
+David Patterson and John~L. Hennessy.
+\newblock {\em {Computer Architecture - A Quantitative Approach}}.
+\newblock September 2011.
 
-\bibitem{Dart}
-{Dart}.
-\newblock \url{https://www.dartlang.org/}.
+\bibitem{SIMDE}
+Iván Castilla~Rodriguez.
+\newblock {\em Simulador didáctico de arquitectura de computadores}.
+\newblock PhD thesis, Universidad de La Laguna, 2004.
 
-\bibitem{grunt}
-{Grunt The Javascript Runner}.
-\newblock \url{https://gruntjs.com/}.
-
-\bibitem{gulp}
-{gulpjs}.
-\newblock \url{http://gulpjs.com/}.
-
-\bibitem{Hexo}
-{Hexo - A fast, simple and porwerful blog framework}.
-\newblock \url{https://hexo.io/}.
-
-\bibitem{EvolutionJavascript}
-{Javascript Perfomance Evolution}.
-\newblock
-  \url{https://en.wikipedia.org/wiki/JavaScript_engine#Performance_evolution}.
-
-\bibitem{Polyfill}
-{Polyfill - Wikipedia}.
-\newblock \url{https://en.wikipedia.org/wiki/Polyfill}.
-
-\bibitem{Polymer}
-{Polymer}.
-\newblock \url{https://www.polymer-project.org/}.
-
-\bibitem{CoffescriptWiki}
-{Página oficial de React}.
-\newblock https://facebook.github.io/react/.
-
-\bibitem{React}
-{Página oficial de React}.
-\newblock \url{https://facebook.github.io/react/}.
-
-\bibitem{ReactStyleGuide}
-{React's Style Guide}.
-\newblock \url{https://github.com/airbnb/javascript/tree/master/react}.
+\bibitem{SESC}
+{SESC: SuperESCalar Simulator}.
+\newblock \url{http://iacoma.cs.uiuc.edu/~paulsack/sescdoc/}.
 
 \bibitem{ReSIM}
 {ReSim, a Trace-Driven, Reconfigurable ILP Processor Simulator }.
@@ -59,38 +28,102 @@
   Animation}.
 \newblock \url{https://www.ncsu.edu/wcae/ISCA2000/submissions/wolff.pdf}.
 
-\bibitem{SESC}
-{SESC: SuperESCalar Simulator}.
-\newblock \url{http://iacoma.cs.uiuc.edu/~paulsack/sescdoc/}.
+\bibitem{VLIWDLX}
+{VLIW-DLX Simulator for Educational Purposes}.
+\newblock \url{https://www.ncsu.edu/wcae/ISCA2007/p8-becvar.pdf}.
 
-\bibitem{ReactUsers}
-{Sitios que utilizan React}.
-\newblock \url{https://github.com/facebook/react/wiki/sites-using-react}.
+\bibitem{EvolutionJavascript}
+{Javascript Perfomance Evolution}.
+\newblock
+  \url{https://en.wikipedia.org/wiki/JavaScript_engine#Performance_evolution}.
+
+\bibitem{Electron}
+{ Electron}.
+\newblock \url{https://github.com/electron/electron}.
+
+\bibitem{Coffescript}
+{Coffescript}.
+\newblock \url{http://coffeescript.org/}.
+
+\bibitem{CoffescriptWiki}
+{Página oficial de React}.
+\newblock https://facebook.github.io/react/.
+
+\bibitem{Dart}
+{Dart}.
+\newblock \url{https://www.dartlang.org/}.
 
 \bibitem{Typescript}
 {Typescript - Javascript that Scales}.
 \newblock \url{https://www.typescriptlang.org/}.
 
-\bibitem{VLIWDLX}
-{VLIW-DLX Simulator for Educational Purposes}.
-\newblock \url{https://www.ncsu.edu/wcae/ISCA2007/p8-becvar.pdf}.
-
 \bibitem{Webcomponents}
 {Web Components}.
 \newblock \url{https://www.webcomponents.org/}.
+
+\bibitem{Polymer}
+{Polymer}.
+\newblock \url{https://www.polymer-project.org/}.
+
+\bibitem{Polyfill}
+{Polyfill - Wikipedia}.
+\newblock \url{https://en.wikipedia.org/wiki/Polyfill}.
+
+\bibitem{React}
+{Página oficial de React}.
+\newblock \url{https://facebook.github.io/react/}.
+
+\bibitem{ReactUsers}
+{Sitios que utilizan React}.
+\newblock \url{https://github.com/facebook/react/wiki/sites-using-react}.
+
+\bibitem{ReactStyleGuide}
+{React's Style Guide}.
+\newblock \url{https://github.com/airbnb/javascript/tree/master/react}.
+
+\bibitem{grunt}
+{Grunt The Javascript Runner}.
+\newblock \url{https://gruntjs.com/}.
+
+\bibitem{gulp}
+{gulpjs}.
+\newblock \url{http://gulpjs.com/}.
 
 \bibitem{webpack}
 {webpack module bundler}.
 \newblock \url{https://webpack.github.io/}.
 
-\bibitem{SIMDE}
-Iván Castilla~Rodriguez.
-\newblock {\em Simulador didáctico de arquitectura de computadores}.
-\newblock PhD thesis, Universidad de La Laguna, 2004.
+\bibitem{GeneradoresEstaticos}
+{An Introduction to Static Site Generators}.
+\newblock \url{https://davidwalsh.name/introduction-static-site-generators}.
 
-\bibitem{Hennessy:2011}
-David Patterson and John~L. Hennessy.
-\newblock {\em {Computer Architecture - A Quantitative Approach}}.
-\newblock September 2011.
+\bibitem{Hexo}
+{Hexo - A fast, simple and porwerful blog framework}.
+\newblock \url{https://hexo.io/}.
+
+\bibitem{TypescriptStarter}
+{typescript-starter}.
+\newblock \url{https://github.com/bitjson/typescript-starter}.
+
+\bibitem{yarn}
+{Yarn - Fast, reliable, and secure dependency management.}
+\newblock \url{https://yarnpkg.com/en/}.
+
+\bibitem{Lex}
+{Lex}.
+\newblock \url{https://www.npmjs.com/package/lex}.
+
+\bibitem{ReactWebComponents}
+{Web Components - React}.
+\newblock \url{https://facebook.github.io/react/docs/web-components.html}.
+
+\bibitem{SuperescalarDesign}
+{William M. Johnson}.
+\newblock {Super-Scalar Processor Design}.
+\newblock Technical report, {Stanford University}, {1989}.
+
+\bibitem{NuevaDocumentacion}
+{Documentacion - SIMDE}.
+\newblock \url{http://adrianabreu.com/SIMDE_DOCS/}.
 
 \end{thebibliography}

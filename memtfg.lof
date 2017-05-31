@@ -5,12 +5,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Typescript como superconjunto de Javascript}}{11}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Funcionamiento del DOM virtual de React}}{13}{figure.4.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Funcionamiento del DOM virtual de React \cite {ReactVirtualDOM}}}{13}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Imagen descriptiva de Webpack}}{15}{figure.4.3}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Funcionamiento del DOM virtual de React \cite {ReactVirtualDOM}}}{21}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Nueva version de la documentacion}}{23}{figure.5.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Notificacion de error original SIMDE}}{23}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Ejemplos de errores en la nueva versi\IeC {\'o}n de simde}}{24}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Notificacion de error original SIMDE}}{24}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Ejemplos de errores en la nueva versi\IeC {\'o}n de simde}}{25}{figure.6.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

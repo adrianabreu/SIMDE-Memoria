@@ -1,24 +1,22 @@
-Con el objetivo de mejorar el rendimiento de una computadora es necesario superar la barrera
-de 1 ciclo por instrucción -el límite teórico máximo que se puede conseguir con la técnica de segmentación-,
-para ello, se debe conseguir ejecutar varias instrucciones diferentes de forma paralela.\cite{Hennessy:2011}
+Para aumentar el rendimiento de los computadores es necesario que se puedan ejecutar varias 
+instrucciones en paralelo.
 
 \bigskip
-Para alcanzar este propósito se deben considerar varios factores:
-
-\begin{itemize}
-
-\item Se debe proveer de una estructura capaz de emitir múltiples instrucciones.
-
-\item Se deben detectar los posibles riesgos asociados (tanto entre las instrucciones que se van a 
-emitir entre sí como entre las que se van a emitir y las que ya están ejecutándose). 
-
-\item Se debe hacer una planificación para evitar que sucedan los posibles riesgos de datos o 
-de estructuras, y también optimizar el funcionando de la máquina.
-
-\end{itemize}
+Desde 1985 la mayoría de computadoras han explotado el paralelismo a nivel de instruccion implementando
+la técnica conocida como segmentación -una técnica que promueve una disposición concreta de los 
+recursos de la máquina y una divsión de la ejecución de las instrucciones en etapas para conseguir 
+un funcionamiento similar al de una cadena de montaje-. 
+Esta técnica tiene como límite máximo  el rendimiento de 1 ciclo por instrucción (CPI). 
+Para poder superar este límite, es necesario emitir varias instrucciones diferentes de 
+forma simultánea.\cite{Hennessy:2011}
 
 \bigskip
-Existen dos grandes técnicas para conseguir explotar el paralelismo a nivel de instrucción:
+Para alcanzar este propósito se deben considerar los posibles riesgos que ello implica, al ejecutar multiples
+instrucciones aparecen diversos riesgos estructurales y dependencias de distintos tipos: Control, datos o recursos. Estas 
+dependencias deben ser detectadas y resuelas correctamente.
+
+\bigskip
+Existen dos grandes técnicas para conseguir explotar el paralelismo a nivel de instrucción con emisión múltiple:
 
 \begin{enumerate}
 
@@ -30,11 +28,17 @@ relativamente simple.
 
 \end{enumerate}
 
-\subsection{Superescalar}
+Las máquinas superescalares son aquellas máquinas que cumplen las siguientes características:
 
-La mayoría de máquinas Superescalares hacen uso de la planificación dinámica, es decir, el hardware 
-en sí mismo es el encargado de mantener la emisión de múltiples instrucciones, decodificarlas y 
-ejecutarlas.
+\begin{itemize}
+
+\item Emiten instrucciones desde un único flujo secuencial de instrucciones.
+
+\item Poseen emisión múltiple.
+
+\item Hacen uso de la planificación dinámica.
+
+\end{itemize}
 
 \bigskip
 Para resolver los problemas de dependencias se utiliza una modificación del algoritmo de Tomasulo.
@@ -43,7 +47,7 @@ funcional de punto flotante de la máquina 360/91 de IBM.
 
 \bigskip
 Mediante un seguimiento de los operandos y renombrado de registros se eliminaron los tres tipos 
-de dependencias \textit{Read After Write}, \textit{Write After Read} y \textit{Write After Write}. 
+de riesgos de datos: \textit{Read After Write}, \textit{Write After Read} y \textit{Write After Write}. 
 
 \bigskip
 Además, las máquinas superescalares incorporan nuevas estructuras de hardware como el ReorderBuffer para

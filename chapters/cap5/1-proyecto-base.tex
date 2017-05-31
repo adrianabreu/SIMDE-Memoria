@@ -1,0 +1,36 @@
+Para llevar a cabo este proyecto se ha decidido trabajar con un poryecto de NodeJS que gestionara
+las dependencias. Se ha utilizado como base el proyecto \textit{typescript-starter}.\cite{TypescriptStarter}
+Este proyecto incluía las dependencias necesarías para empezar a trabajar en la lógica, como 
+el compilador de Typescript y el \textit{test runner} Ava.
+
+\bigskip
+Para gestionar las dependencias se ha utilizado Yarn\cite{yarn}. Este gestor de dependencias surgió
+como alternativa a npm\cite{npm}. Al igual que todos los proyectos basados en NodeJS, el fichero
+más importante es el \textit{package.json}, donde se definen las dependencias y las acciones.
+
+\bigskip
+Para instalar las dependencias basta con ubicarse en directorio raíz del proyecto y ejecutar el siguiente
+comando.
+
+\begin{lstlisting}
+yarn install
+\end{lstlisting}
+
+\bigskip
+Si se quiere continuar desarrollando el proyecto, debe utilizarse el comando: 
+\begin{lstlisting}
+yarn start
+\end{lstlisting}
+
+Este comando arrancará un servidor embebido en webpack con BrowserSync, de tal forma que se la 
+página se recargará automáticamente cada vez que se modifican los ficheros, 
+permitiendo ver los cambios realizados.
+
+\bigskip
+Si se quiere publicar la aplicación debe ejecutarse el comando:
+\begin{lstlisting}
+yarn run webpack:prod
+\end{lstlisting}
+
+De esta forma se activa el perfil de producción de webpack, se minimiza el código y se generan 
+los ficheros estáticos a publicar en la página web en la carpeta \textit{dist}.

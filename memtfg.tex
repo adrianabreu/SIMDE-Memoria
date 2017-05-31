@@ -13,6 +13,8 @@
 \usepackage{multirow}
 \usepackage{hyperref}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+\hyphenation{des-criptivo}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\SONY}{{\sc Sony}}
@@ -138,7 +140,7 @@ D. {\bf Iván Castilla Rodríguez}, con N.I.F. 78.565.451-G
 profesor
 Titular de Universidad
 adscrito al Departamento
-de Nombre del Departamento
+de Ingeniería Informática y de Sistemas
 de la Universidad de La Laguna, como tutor
 
 \bigskip
@@ -181,22 +183,6 @@ Agradecimientos
 
 \begin{large}
 
-
-\hspace{3mm}
-XXX
-
-\hspace{3mm}
-XXX
-
-
-\hspace{3mm}
-XXX
-
-
-\hspace{3mm}
-XXX
-
-
 \end{large}
 
 }
@@ -222,45 +208,23 @@ Licencia
 \begin{abstract}
 {\em
 
-El objetivo de este trabajo ha sido ....
-%
-bla, bla, bla
-%
-bla, bla, bla
-%
-bla, bla, bla
+El objetivo de este trabajo ha sido desarrollar un simulador que sirva de ayuda a la docencia
+de arquitectura de computadores, en concreto, al funcionamiento de las máquinas superescalares.
 
 \bigskip
-La competencia [E6], que figura en la guía docente, indica que en la memoria del trabajo se ha de incluir:
-antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto,
-conclusiones, y líneas futuras.
-
-
-\bigskip
-Se ha incluido el apartado de 'Licencia' con todas las posibles licencias abiertas (Creative Commons).
-En el caso en que se decida hacer público el contenido de la memoria, habrá que elegir una de ellas
-(y borrar las demás).
-La decisión de hacer pública o no la memoria se indica en el momento de subir la memoria a la Sede Electrónica de la ULL, paso necesario en el proceso de presentación del TFG.
+A pesar de contar ya con una herramienta para tal fin, como es el simulador desarrollado por el 
+profesor Ivan Castilla \textit{SIMDE}. Esta herramienta ha quedado obsoleta, con lo cual se ha 
+reescrito el mismo como una aplicación web.
 
 \bigskip
-El documento de memoria debe tener un máximo de 50 páginas.
+Para poder llevar a cabo este rediseño se han utilizado tecnologías modernas tales como Typescript, 
+React, Webpack y Sass, permitiendo aprovechar todas las mejoras que se han producido en el mundo
+de las aplicaciones web en los últimos años.
 
-\bigskip
-No se deben dejar páginas en blanco al comenzar un capítulo, ya que
-el documento no está pensado para se impreso sino visionado
-con un lector de PDFs.
-
-\bigskip
-También es recomendable márgenes pequeños ya que, al firmar digitalmente por
-la Sede, se coloca un marco alrededor del texto original.
-
-
-\bigskip
-El tipo de letra base ha de ser de 14ptos.
 }
 
 \begin{palabrasClave}
-Palabra reservada1, Palabra reservada2, ...
+SIMDE, React, Superescalar, Typescript, Webpack, Arquitectura de Computadores.
 \end{palabrasClave}
 
 \end{abstract}
@@ -271,12 +235,22 @@ Palabra reservada1, Palabra reservada2, ...
 \begin{summary}
 {\em
 
-Here should be the abstract in a foreing language...
+The purpose of this work was to develop a simulator for helping in the teaching of Computer Architecure's 
+fundaments, principally, in how superescalar machines work.
+
+\bigskip
+Despite there exists a tool with that purpose like Ivan Castillas's SIMDE. This tool is now out-dated. Using
+it as the basis of this project, a new version of this tool has been made from stratch as a web application.
+
+\bigskip
+In order to rewrite and older application, this projects uses the latests technologies in the web world like 
+Typescript, React, Webpack and Sass, allowing to make use of the last improvements in the world of
+the web applications.
 
 }
 
 \begin{keywords}
-Keyword1, Keyword2, Keyword3, ...
+SIMDE, React, Superescalar, Typescript, Webpack, Computer Architecture.
 \end{keywords}
 
 \end{summary}
@@ -400,7 +374,7 @@ Keyword1, Keyword2, Keyword3, ...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addcontentsline{toc}{chapter}{Bibliografía}
-\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 
 \bibliography{memtfg}
 \nocite{*}

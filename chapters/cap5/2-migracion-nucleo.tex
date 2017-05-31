@@ -1,0 +1,62 @@
+\subsection{Analizadores léxicos}
+El núcleo de la aplicación se basa en el uso del generador de analizadores 
+léxicos FLEX para parsear un conjunto de instrucciones similar a las del MIPS IV. 
+Para realizar el proceso de migración he tenido que comprender primero el 
+funcionamiento de los analizadores léxicos.
+
+\bigskip
+Un analizador léxico es un programa que recibe como entrada el código fuente de 
+otro programa y produce una salida compuesta de tokens o símbolos 
+que alimentarán a un analizador sintáctico.
+
+\bigskip
+Para proceder con esta tarea se ha aislado la implementación original y se han 
+realizado pequeñas pruebas concretas.
+
+\subsection{Lex}
+
+A pesar de las multiples librerías, que hay disponibles, se decidió que la más adecuada 
+para este proyecto era Lex\cite{Lex}. 
+
+El funcionamiento de este paquete es realmente sencillo, partiendo de un 
+objeto Lexer, se definen las reglas y el token a retornar. De esta forma
+el código original que alimentaba Flex se ha convertido en: 
+
+\begin{lstlisting}
+export class Parser {
+
+   private LEX: LEX;
+
+   private _lexer;
+
+   constructor() {
+
+      this._lexer = new Lexer();
+
+      this._lexer.addRule(/^[0-9]+/i, function (lexeme) {
+         this.yytext = lexeme;
+         return LEX.LINESNUMBER;
+      })
+      // Version acortada
+      .addRule(/\/\/.*/, function (lexeme) {
+         return;
+      });
+   }
+
+   setInput(input: string) {
+      this._lexer.input = input;
+   }
+
+   lex(): Lexema {
+      let value = this._lexer.lex();
+      return {
+         value: value,
+         yytext: this._lexer.yytext
+      };
+   }
+}
+\end{lstlisting}
+
+Como vemos, se ha hecho una integración con Typescript creando una interfaz propia como es 
+el Lexema y un enumerado para los distintos tipos. Estos enumerados se utilizan en la integración 
+del código y en los tests, demostrando las ventajas de utilizar esta tecnología.
