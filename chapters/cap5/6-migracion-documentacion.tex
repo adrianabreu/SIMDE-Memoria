@@ -6,7 +6,7 @@ elaboró una extensa documentación, esta quedó inaccesible.
 \bigskip
 La documentación fue realizada en formato .HLP, un formato de ayuda de Windows que quedó
 en desuso en Windows Vista. Y esta documentación era realmente interesante, pues no sólo
-contenía datos sobre la palicación, sino que incluía consejos para el desarrollo de 
+contenía datos sobre la aplicación, sino que incluía consejos para el desarrollo de 
 aplicaciones para las distintas máquinas y además explicaba el funcionamiento de las máquinas.
 
 \bigskip
@@ -25,6 +25,34 @@ Tras barajar algunas opciones, se optó por mover la documentación a un formato
 es markdown. Y partiendo de esto se utilizó un generador de contenido estático basado en NodeJS (Hexo)
 para convertir este markdown en web. Se desarrollo un tema simple y personalizado para la ayuda y se 
 añadió la capacidad de cambiar entre inglés y español.
+
+\bigskip
+Además, la documentación original también tenía su versión inglesa. Por desgracia el soporte de i18n no
+es tan óptimo como se podría desear, con lo cual se optó por migrar las dos versiones y habilitar un botón
+que permitiera seleccionar entre las dos versiones.
+
+\bigskip
+Al tratarse de un proyecto independiente, si se desea continuar con el desarrollo es necesario instalar las dependencias
+aparte, ya sea con \textit{npm} o \textit{Yarn}. El comando:
+
+\begin{lstlisting}
+hexo server
+\end{lstlisting}
+
+Nos permite ver los cambios en local realizados sobre la documentación. Mientras que el comando:
+
+\begin{lstlisting}
+hexo
+\end{lstlisting}
+
+Se encarga de generar los ficheros a publicar en la carpeta \textit{public}. Es importante notar que para
+que las rutas se resuelvan correctamente se debe configurar los siguientes párametors del fichero 
+\textit{\_config.yml}:
+
+\begin{lstlisting}
+url: http://adrianabreu.com/SIMDE_DOCS/
+root: /SIMDE_DOCS/
+\end{lstlisting}
 
 \bigskip
 Este es el estado actual de la aplicación de la documentación.

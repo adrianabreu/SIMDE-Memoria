@@ -1,7 +1,7 @@
 \subsection{Analizadores léxicos}
 El núcleo de la aplicación se basa en el uso del generador de analizadores 
 léxicos FLEX para parsear un conjunto de instrucciones similar a las del MIPS IV. 
-Para realizar el proceso de migración he tenido que comprender primero el 
+Para realizar el proceso de migración ha sido necesario comprender primero el 
 funcionamiento de los analizadores léxicos.
 
 \bigskip
@@ -15,11 +15,11 @@ realizado pequeñas pruebas concretas.
 
 \subsection{Lex}
 
-A pesar de las multiples librerías, que hay disponibles, se decidió que la más adecuada 
+A pesar de las multiples librerías que hay disponibles se decidió que la más adecuada 
 para este proyecto era Lex\cite{Lex}. 
 
 El funcionamiento de este paquete es realmente sencillo, partiendo de un 
-objeto Lexer, se definen las reglas y el token a retornar. De esta forma
+objeto Lexer, se definen las reglas y el token a devolver. De esta forma
 el código original que alimentaba Flex se ha convertido en: 
 
 \begin{lstlisting}

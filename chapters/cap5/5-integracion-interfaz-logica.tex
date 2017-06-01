@@ -1,7 +1,6 @@
-\subsection{Realización de los bindings}
-Uno de los puntos a favor de haber utilizado este tipo de librerías es que su elevada flexibilidad.
-La única limitación es que el código javascript en sí no debe realizar modificaciones sobre los 
-elementos propios de los componentes de React.
+Una de las mayores ventajas que aporta la flexibilidad de React es que la única limitación 
+real para el correcto funcionamiento de la librería consiste en que el código javascript 
+en sí no debe realizar modificaciones sobre los elementos propios de los componentes de React.
 
 \bigskip
 Para realizar la integración entre la lógica y la interfaz se ha recurrido al uso de los callbacks.
@@ -13,3 +12,8 @@ y los pasos o "tics" se invocan mediante el uso de los callbacks.
 Dado que todos los componentes creados para la interfaz hacían uso de estos callback se ha aplicado la 
 herencia. Todos los componentes extienden la clase \textit{BaseComponent} en vez de la clase 
 \textit{React.Component}.
+
+\bigskip
+Además, utilizando el mismo \textit{título} que tenga ese componente, se decide mediante un simple switch
+cual es el contenido que lleva asociado. Esta abstracción permitirá extender este modelo en un futuro 
+para la máquina VLIW.

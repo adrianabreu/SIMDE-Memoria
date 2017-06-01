@@ -109,9 +109,17 @@ Iván Castilla~Rodriguez.
 {Yarn - Fast, reliable, and secure dependency management.}
 \newblock \url{https://yarnpkg.com/en/}.
 
+\bibitem{npm}
+{Npm}.
+\newblock \url{https://www.npmjs.com/}.
+
 \bibitem{Lex}
 {Lex}.
 \newblock \url{https://www.npmjs.com/package/lex}.
+
+\bibitem{NuevaURLSimde}
+{Simde}.
+\newblock \url{http://adrianabreu.com/simde}.
 
 \bibitem{ReactWebComponents}
 {Web Components - React}.
