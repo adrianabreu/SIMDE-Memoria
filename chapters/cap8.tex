@@ -7,41 +7,68 @@
 \label{8:sec:1}
 
 With the development of this work we have now available a new versión of
-the Instruction Level Paralelism's simulator SIMDE.
+the Instruction Level Paralelism simulator SIMDE.
 
-It has been demonstrated that the diversity of tools and techologies available today (such as 
-the new languages for the web, the webcomponents and the building tools), make possible
-to develop and design with relative easiness complex applications.
+\bigskip
+It has also been seen that the many tools and technologies available today (the new languages 
+for the web, the webcomponents and the building tools), allowing to develop 
+and design with relative ease complex applications.
 
-It is important to remember that as in every software development, the develop of 
-a program is a process that is alive, being able to suffer changes, and since the 
-exhausting rythm that the web world is following, is possible that in a close future
-there may be new choices that improve the user experience of this simulator.
+\bigskip
+It is necessary to remember that, as in all software processes, the development of a
+application is alive, subject to changes and given the impressive pace at which the web world evolves.
+It is possible that in the future there will be alternatives to improve the experience of this simulator.
 
 %---------------------------------------------------------------------------------
 \section{Future work lines}
 \label{8:sec:2}
 
-After the development of this work, there are many future lines open: 
+After the development of this work, several futurel lines are opened: 
 
 \begin{itemize}
 
-\item Implementation of the Very Long Instruction Word machine: Based on the
- initial design, the application is ready for evolve and get the same capabilities that original simulator.
- This line has the highest priority of all.
+\item Implementation of the Very Long Instruction Word machine: Based on the initial design,
+the application is ready for evolve and get the same capabilities that original simulator.
+This line has the greatest priority since it equates the functionality of SIMDE's web application to
+the original application.
 
-\item Make more test: In the web world is not easy to test for the multiple cases that can be presented,
-but this application is really focused on its core logic. Making it a great candidate for being tested. 
-There are a few test donde based on Ava, the futuristic test runner for typescript. Making more and 
-more concrete test would make of SIMDE a great and robust software.
+\item Make a greater amount of test: In the web world is not easy to test 
+ the multiple cases, however this application is a great candidate to be tested. 
+As the basis for this laid in the tests made for the Code and the Queue structure,
+the test could be extended to small simulations.
 
-\item Integrate exercises with the application: SIMDE is an educational tool. And since it is web based, 
-it would be possible to design an environment where the application could interact with another app, 
-making it easier for autonomous students.
+\item Implement a state management system: In the current application a simple management state system
+have been used due to the high amount of work required to incorporate technologies such as Redux and 
+the difficulties involved in the use of Observables in a system like Mobx. In future lines this system could be
+replaced by a more robust system developed by third parties.
 
-\item Implement a standard state management system: Right now, the application uses a handmade tool for
-managing the states and allowing time travelling. There are many options available but all of them require
-a deep knowledge of the tool, which surpases the amount of work of this project. In my opinion, the best 
-tool for this job would be Mobx, instead of Redux. Since it is object oriented and requires less boilerplate code.
+\item Include operating tutorials: Now that SIMDE is an application with great accessibility,
+the only barrier faced by its users is the difficulty of understandoing what they are 
+visualizing and the objective of the simulator itself. Although this is explained in the 
+documentation the integration of small tutorials would put an end to this initial barrier
+and would encourage the use to people with a less specific knowledge of the field
+of computer architecture.
+
+\item Automate the exercise system: With the aim of promoting autonomy could be interesting 
+to automate the exercise system. By using some technology in the \textit{backend}, the student
+could be given not only a problem to solve but the possibility of compare the solution 
+he has proposed with some solutions made by the teachers beforehand. With that the student
+could receive an important feedback instantly.
+
+\item Include gamification: By incorporating gaming dynamics,competitiveness among users would promoted. 
+Rewarding creativity for problem solving and urging students to understand the architectures 
+of the machines and their advantages and limitations in order orden to develop codes 
+that require less execution time.
+
+\item Allow collaborative development: Since one of the main requirements of a
+computer engineer is the ability to work in a team, an interesting development line
+in this sense would be to synchronize the execution of the machines between several members of a group
+through the use of websockets. Thus, if also some communication tool as a chat is included,
+it would be possible to promote good practises among the students and it would provide 
+dynamism to development.
+
+\item Develop more simulators: With the development of this simulator, the basis are laid for
+the future development of multiple simulators that allow to teach interactively multiple computer architecture's foundations
+such as level thread parallelism or cache coherence in multiprocess systems.
 
 \end{itemize}
