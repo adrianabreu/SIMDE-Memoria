@@ -117,9 +117,27 @@ Iván Castilla~Rodriguez.
 {Lex}.
 \newblock \url{https://www.npmjs.com/package/lex}.
 
+\bibitem{TStringObjects}
+{TStrings.Objects Property}.
+\newblock
+  \url{http://docs.embarcadero.com/products/rad_studio/delphiAndcpp2009/HelpUpdate2/EN/html/delphivclwin32/Classes_TStrings_Objects.html}.
+
+\bibitem{fontawesome}
+{Font Awesome, the iconic font and CSS toolkit}.
+\newblock \url{http://fontawesome.io/}.
+
+\bibitem{bootstrap}
+{Bootstrap · The world's most popular mobile-first and responsive front-end
+  framework.}
+\newblock \url{http://getbootstrap.com/}.
+
+\bibitem{Sass}
+{Sass: Syntactically Awesome Style Sheets}.
+\newblock \url{http://sass-lang.com/}.
+
 \bibitem{NuevaURLSimde}
 {Simde}.
-\newblock \url{http://adrianabreu.com/simde}.
+\newblock \url{adrianabreu.com/SIMDE-Simulator}.
 
 \bibitem{ReactWebComponents}
 {Web Components - React}.
@@ -132,6 +150,6 @@ Iván Castilla~Rodriguez.
 
 \bibitem{NuevaDocumentacion}
 {Documentacion - SIMDE}.
-\newblock \url{http://adrianabreu.com/SIMDE_DOCS/}.
+\newblock \url{http://adrianabreu.com/SIMDE-Docs/}.
 
 \end{thebibliography}
