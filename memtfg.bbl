@@ -1,9 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{ReactVirtualDOM}
-{BUILDING ISOMORPHIC WEB APPLICATIONS - USING REACT AND NODE}.
-\newblock \url{http://donaldwhyte.co.uk/isomorphic-react-workshop/#/4/6}.
-
 \bibitem{Hennessy:2011}
 David Patterson and John~L. Hennessy.
 \newblock {\em {Computer Architecture - A Quantitative Approach}}.
@@ -73,6 +69,10 @@ Iván Castilla~Rodriguez.
 {Página oficial de React}.
 \newblock \url{https://facebook.github.io/react/}.
 
+\bibitem{ReactVirtualDOM}
+{BUILDING ISOMORPHIC WEB APPLICATIONS - USING REACT AND NODE}.
+\newblock \url{http://donaldwhyte.co.uk/isomorphic-react-workshop/#/4/6}.
+
 \bibitem{ReactUsers}
 {Sitios que utilizan React}.
 \newblock \url{https://github.com/facebook/react/wiki/sites-using-react}.
@@ -134,6 +134,10 @@ Iván Castilla~Rodriguez.
 \bibitem{Sass}
 {Sass: Syntactically Awesome Style Sheets}.
 \newblock \url{http://sass-lang.com/}.
+
+\bibitem{helpdecompiler}
+{Decompile HLP Files with the WinHelp Decompiler}.
+\newblock \url{https://www.helpscribble.com/decompiler.html}.
 
 \bibitem{NuevaURLSimde}
 {Simde}.

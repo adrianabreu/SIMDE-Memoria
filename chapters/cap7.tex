@@ -4,16 +4,16 @@
 \section{Conclusiones}
 \label{7:sec1}
 
-Con el desarrollo de este trabajo se ha conseguido disponer una nueva versión
-del simulador de paralelismo a nivel de instrucción SIMDE. \cite{NuevaURLSimde}
+Con el desarrollo de este trabajo se ha conseguido disponer de una nueva versión
+del simulador de paralelismo a nivel de instrucción SIMDE \cite{NuevaURLSimde}. 
 
 Se ha visto además que las múltiples herramientas y tecnologías disponibles hoy
 día (los nuevos lenguajes transpilables a javascript, los web components, las 
 herramientas para la distribución), permiten elaborar y diseñar con relativa
 facilidad aplicaciones que se salen de la norma.
 
-Es necesario recordar, que como en todo proceso de software, el desarrollo de una 
-aplicación esta vivo, sujeto a cambios y que dado el impresionante ritmo al que evoluciona
+Es necesario recordar que, como en todo proceso de software, el desarrollo de una 
+aplicación está vivo, sujeto a cambios y dado el impresionante ritmo al que evoluciona
 el mundo web, es posible que en un futuro aparezcan alternativas que permitan mejorar 
 la experiencia de este simulador.
 
@@ -34,12 +34,40 @@ para los distintos casos, sin embargo, la lógica que acompaña al simulador es 
 ser testeado. Con las bases asentadas en los tests realizados para la estructura de la cola y 
 del parseador del código, se podría extender este funcionamiento a pequeñas simulaciones.
 
-\item Realizar un tutorial de inicio: Ahora que SIMDE es una aplicación accesible para todo el mundo, sería
-deseable que no supusiera una barrera para cualquier usuario que sintiera la necesidad de probar 
-
 \item Implementar un sistema de gestión de estados: En la aplicación actual se ha hecho un sistema
- de estados rudimentario debido al volumen de trabajo de sistemas como Redux y a las dificultades 
- que entrañan los Observables que vienen en un sistema como Mobx. En líneas futuras este sistema
-  rudimentario podría sustituirse por un sistema más robusto desarrollado por terceros.
+de estados simple debido al volumen de trabajo que requiere incorporar tecnologías
+como Redux y a las dificultades que entrañan los Observables que vienen 
+en un sistema como Mobx. En líneas futuras este sistema podría sustituirse por un 
+sistema más robusto desarrollado por terceros.
+
+\item Intregar tutoriales de funcionamiento: Ahora que SIMDE es una aplicación con un gran
+grado de accesibilidad, la única barrera a la que se enfrentan sus usuarios es a la dificultad de
+comprender lo que están visualizando y el objetivo en sí de la máquina. A pesar de que esto
+se explica en la documentación la integración de pequeños tutoriales de funcionamiento acabaría con 
+esta barrera inicial y fomentaría el uso a gente con un menor conocimiento específico del campo
+de arquitectura de computadores.
+
+\item Automatizar el sistema de ejercicios: También con el objetivo de fomentar la autonomía podría
+resultar interesante automatizar el sistema de ejercicios, de esta forma, mediante el uso de alguna
+tecnología en \textit{backend} se podría no solo entregar al alumno un problema a resolver sino 
+comparar la solución que ha propuesto con algunas soluciones propuestas por los profesores de antemano
+de tal forma que el alumno sea capaz de recibir una retroalimentación instántanea sobre su solución.
+
+\item Incluir gamificación: Mediante la incorporación de dinámicas de juego, se podría fomentar la
+competitividad entre los usuarios, premiando la creatividad para la resolución de problemas e instando
+a los alumnos a comprender mejor las arquitecturas de las máquinas y sus ventajas y limitaciones para
+obtener códigos que requieran menor tiempo de ejecución.
+
+\item Permitir el desarrollo colaborativo: Dado que uno de los requisitos principales de un 
+ingeniero informático es la capacidad de trabajar en equipo, una línea de desarrollo interesante
+en este sentido sería sincronizar la ejecución de las máquinas entre varios miembros de un grupo
+mediante el uso de websockets. Así pues, si además se incluyera alguna herramienta de comunicación
+ como un chat, se lograría fomentar una buena practica entre los alumnos y se dotaría de cierto
+ dinamismo al desarrollo.
+
+\item Desarrollar más simuladores: Con el desarrollo de este simulador se asientan las bases para
+el futuro desarrollo de múltiples simuladores que permitan enseñar de forma interactiva
+diversos fundamentos de la arquitectura de computadores como por ejemplo la el paralelismo a nivel 
+de hilo o la coherencia a nivel de cache en sistemas multiproceso.
 
 \end{itemize}
