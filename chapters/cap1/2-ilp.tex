@@ -1,38 +1,47 @@
-Para aumentar el rendimiento de los computadores es necesario que se puedan ejecutar varias 
-instrucciones en paralelo.
+Para aumentar el rendimiento de los computadores es necesario 
+que se puedan ejecutar varias instrucciones en paralelo.
 
 \bigskip
-Desde 1985 la mayoría de computadoras han explotado el paralelismo a nivel de instruccion implementando
-la técnica conocida como segmentación -una técnica que promueve una disposición concreta de los 
-recursos de la máquina y una divsión de la ejecución de las instrucciones en etapas para conseguir 
-un funcionamiento similar al de una cadena de montaje-. 
-Esta técnica tiene como límite máximo  el rendimiento de 1 ciclo por instrucción (CPI). 
-Para poder superar este límite, es necesario emitir varias instrucciones diferentes de 
-forma simultánea.\cite{Hennessy:2011}
+Desde 1985 la mayoría de computadoras han explotado el paralelismo
+a nivel de instruccion implementando la técnica conocida como 
+segmentación -una técnica que promueve una disposición concreta 
+de los recursos de la máquina y una divsión de la ejecución de 
+las instrucciones en etapas para conseguir un funcionamiento 
+similar al de una cadena de montaje-. Esta técnica tiene como
+límite máximo  el rendimiento de 1 ciclo por instrucción (CPI). 
+Para poder superar este límite, es necesario emitir varias 
+instrucciones diferentes de forma simultánea.\cite{Hennessy:2011}
 
 \bigskip
-Para alcanzar este propósito se deben considerar los posibles riesgos que ello implica, al ejecutar multiples
-instrucciones aparecen diversos riesgos estructurales y dependencias de distintos tipos: Control, datos o recursos. Estas 
-dependencias deben ser detectadas y resuelas correctamente.
+Para alcanzar este propósito se deben considerar los posibles
+riesgos que ello implica, al ejecutar multiples instrucciones
+aparecen diversos riesgos estructurales y dependencias de 
+distintos tipos: control, datos o recursos. Estas dependencias
+ deben ser detectadas y resuelas correctamente.
 
 \bigskip
-Existen dos grandes técnicas para conseguir explotar el paralelismo a nivel de instrucción con emisión múltiple:
+Existen dos grandes técnicas para conseguir explotar el 
+paralelismo a nivel de instrucción con emisión múltiple:
 
 \begin{enumerate}
 
-\item \textbf{Planificación dinámica}: La responsabilidad de detectar y resolver los problemas recae
-en el propio hardware.
+\item \textbf{Planificación dinámica}: La responsabilidad de
+detectar y resolver los problemas recae en el propio hardware.
 
-\item \textbf{Planificación estática}: Delega las decisiones en el software. Manteniendo un hardware
-relativamente simple.
+\item \textbf{Planificación estática}: Delega las decisiones en
+ el software. Manteniendo un hardware relativamente simple.
 
 \end{enumerate}
 
-Las máquinas superescalares son aquellas máquinas que cumplen las siguientes características:
+\subsection{Máquinas Superscalares}
+
+Las máquinas superescalares son aquellas máquinas que cumplen 
+las siguientes características:
 
 \begin{itemize}
 
-\item Emiten instrucciones desde un único flujo secuencial de instrucciones.
+\item Emiten instrucciones desde un único flujo secuencial de 
+instrucciones.
 
 \item Poseen emisión múltiple.
 
@@ -41,33 +50,18 @@ Las máquinas superescalares son aquellas máquinas que cumplen las siguientes c
 \end{itemize}
 
 \bigskip
-Para resolver los problemas de dependencias se utiliza una modificación del algoritmo de Tomasulo.
-Este algoritmo nació originnalmente con el objetivo de controlar las dependencias en la unidad
-funcional de punto flotante de la máquina 360/91 de IBM.
+Para resolver los problemas de dependencias se utiliza una 
+modificación del algoritmo de Tomasulo. Este algoritmo nació
+originnalmente con el objetivo de controlar las dependencias en 
+la unidad funcional de punto flotante de la máquina 360/91 de IBM.
 
 \bigskip
-Mediante un seguimiento de los operandos y renombrado de registros se eliminaron los tres tipos 
-de riesgos de datos: \textit{Read After Write}, \textit{Write After Read} y \textit{Write After Write}. 
+Mediante un seguimiento de los operandos y renombrado de 
+registros se eliminaron los tres tipos de riesgos de datos:
+\textit{Read After Write}, \textit{Write After Read} 
+y \textit{Write After Write}. 
 
 \bigskip
-Además, las máquinas superescalares incorporan nuevas estructuras de hardware como el ReorderBuffer para
-permitir la ejecución fuera de orden.
-
-\subsection{VLIW}
-
-A diferencia de las máquinas Superescalares, las máquinas \textit{Very Long Instruction Word},
-mantienen un hardware simple de emisión y todas las responsabilidades caen en el compilador.
-
-\bigskip
-Para mantener este hardware simple, estas máquinas trabajan como su propio nombre indica, con
-un tamaño de palabra muy grande, es decir, las instrucciones de la máquina son un "grupo"
-de instrucciones normales que pueden ejecutarse en paralelo.
-
-\bigskip
-Esto por supuesto, implica una serie de ventaja / inconvenientes. Por una parte, el compilador,
-debe tener una visión completa del programa, conlleva un nivel de complejidad elevado y requiere
-un alto grado de especialización por máquina para poder realizar las mayores optimizacions posibles.
-
-\bigskip
-Por otra parte, sin embargo, el software es versátil y la circuitería al ser de una menor complejidad 
-permite mayores velocidades de reloj.
+Además, las máquinas superescalares incorporan nuevas 
+estructuras de hardware como el ReorderBuffer para permitir
+la ejecución fuera de orden.
