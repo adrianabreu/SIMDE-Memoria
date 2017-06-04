@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  2 JUN 2017 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  3 JUN 2017 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,6 +781,12 @@ Overfull \hbox (3.38731pt too wide) in paragraph at lines 233--236
 ando as^^S^^P la comprensi^^Son
  []
 
+
+Overfull \hbox (33.35114pt too wide) in paragraph at lines 238--239
+[]\OT1/cmr/m/n/14.4 Arquitectura de Computadores, Superescalar, Simulaci^^Son, 
+Aplicaci^^Son
+ []
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 240.
 Package babel Info: Redefining spanish shorthand >>
@@ -798,11 +804,6 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 240.
 [1]
-Overfull \hbox (32.8979pt too wide) in paragraph at lines 267--268
-[]\OT1/cmr/m/it/14.4 Computer Architecture, Superescalar, Wep Application, Reac
-t, Typescript,
- []
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 274.
 Package babel Info: Redefining spanish shorthand >>
@@ -819,7 +820,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 274.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 274.
-[1] (./memtfg.toc
+ [1] (./memtfg.toc
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 3.
 Package babel Info: Redefining spanish shorthand <<
@@ -2411,4 +2412,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  37i,10n,60p,290b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (45 pages, 171472 bytes).
+Output written on memtfg.dvi (45 pages, 171468 bytes).
