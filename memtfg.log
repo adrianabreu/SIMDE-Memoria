@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  3 JUN 2017 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.1)  21 JUN 2017 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,7 +616,8 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \msafam=\mathgroup4
 \msbfam=\mathgroup5
 \eufmfam=\mathgroup6
-) (./memtfg.aux)
+)
+No file memtfg.aux.
 \openout1 = `memtfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -636,7 +637,6 @@ LaTeX Font Info:    ... okay on input line 99.
 \c@lstlisting=\count120
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring OFF on input line 99.
-
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -653,6 +653,9 @@ LaTeX Info: Redefining \nameref on input line 99.
 \@outlinefile=\write3
 \openout3 = `memtfg.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -820,28 +823,10 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 274.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 274.
- [1] (./memtfg.toc
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 3.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
- [1
+ [1]
 
-])
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `memtfg.toc'.
 
@@ -861,7 +846,12 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 296.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 296.
- [2] (./memtfg.lof)
+[1
+
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write5
 \openout5 = `memtfg.lof'.
 
@@ -881,9 +871,12 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 301.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 301.
- [3
+[2
 
-] (./memtfg.lot)
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write6
 \openout6 = `memtfg.lot'.
 
@@ -903,7 +896,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 306.
- [4
+[3
 
 ]
 Cap\'{\i }tulo 1.
@@ -946,6 +939,9 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 12.
  (./chapters/cap1/2-ilp.tex
+
+LaTeX Warning: Citation `Hennessy:2011' on page 1 undefined on input line 13.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand >>
@@ -962,7 +958,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 14.
- [1
+[1
 
 ]
 Overfull \hbox (7.36859pt too wide) in paragraph at lines 16--21
@@ -1063,6 +1059,10 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 7.
  (./chapters/cap2/1-simde.tex
+
+LaTeX Warning: Citation `SIMDE' on page 4 undefined on input line 4.
+
+
 Overfull \hbox (12.30359pt too wide) in paragraph at lines 1--5
 \OT1/cmr/m/n/14.4 desarroll^^So como proyecto final de carrera un Simulador did
 ^^Sactico para la ense~nanza
@@ -1079,23 +1079,37 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 11.
  (./chapters/cap2/2-otros-simuladores.tex
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 6.
 
+
+LaTeX Warning: Citation `SESC' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation `ReSIM' on page 4 undefined on input line 11.
+
+
+LaTeX Warning: Citation `SATSim' on page 4 undefined on input line 13.
+
+
+LaTeX Warning: Citation `VLIWDLX' on page 4 undefined on input line 14.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
 [4
 
 ])
@@ -1108,6 +1122,10 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 15.
  (./chapters/cap2/3-evolucion-mundo-web.tex
+
+LaTeX Warning: Citation `SIMDE' on page 5 undefined on input line 12.
+
+
 Overfull \hbox (1.34366pt too wide) in paragraph at lines 16--22
 []\OT1/cmr/m/n/14.4 Este argumento totalmente justificado y v^^Salido en el mom
 ento de su enunciado
@@ -1130,6 +1148,11 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 22.
 [5]
+
+LaTeX Warning: Citation `EvolutionJavascript' on page 6 undefined on input line
+ 26.
+
+
 Overfull \hbox (30.05487pt too wide) in paragraph at lines 24--27
 []\OT1/cmr/m/n/14.4 Si intentamos encontrar un origen para esta diferencia tan 
 incre^^S^^Pble de rendimiento,
@@ -1141,7 +1164,16 @@ Overfull \hbox (15.51523pt too wide) in paragraph at lines 24--27
 meras grandes aplicaciones
  []
 
-))
+
+LaTeX Warning: Citation `Electron' on page 6 undefined on input line 32.
+
+)
+Overfull \hbox (10.41869pt too wide) in paragraph at lines 29--18
+\OT1/cmr/m/n/14.4 las herramientas de Microsoft Office), sino que adem^^Sas exi
+sten muchos frameworks
+ []
+
+)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 327.
 Package babel Info: Redefining spanish shorthand >>
@@ -1278,8 +1310,15 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 6.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 6.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
 
+
+LaTeX Warning: Citation `Coffescript' on page 9 undefined on input line 10.
+
+
+LaTeX Warning: Citation `CoffescriptWiki' on page 9 undefined on input line 14.
+
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1313,6 +1352,10 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 39.
 
+
+LaTeX Warning: Citation `Dart' on page 10 undefined on input line 42.
+
+
 Overfull \hbox (6.04358pt too wide) in paragraph at lines 50--52
 []\OT1/cmr/m/n/14.4 Tras razonar detenidamente, a pesar de que Dart es una opci
 ^^Son tremendamente
@@ -1332,6 +1375,9 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 53.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 53.
+
+LaTeX Warning: Citation `Typescript' on page 10 undefined on input line 57.
+
 
 Overfull \hbox (21.30716pt too wide) in paragraph at lines 55--58
 \OT1/cmr/m/n/14.4 est^^Sandares: ECMA5, ECMA6, ECMA7... Y adem^^Sas, como carac
@@ -1390,6 +1436,10 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 7.
 
+
+LaTeX Warning: Citation `Webcomponents' on page 11 undefined on input line 13.
+
+
 Overfull \hbox (2.65224pt too wide) in paragraph at lines 10--14
 \OT1/cmr/m/n/14.4 SIMDE era contar con un dise~no basado en componentes. Siendo
  la caracte^^Sristica
@@ -1444,6 +1494,12 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 32.
 
+LaTeX Warning: Citation `Polymer' on page 12 undefined on input line 34.
+
+
+LaTeX Warning: Citation `Polyfill' on page 12 undefined on input line 36.
+
+
 Overfull \hbox (34.2133pt too wide) in paragraph at lines 33--37
 \OT1/cmr/m/n/14.4 por Google y anunciada en el a~no 2013, Polymer permite aprov
 echar las caracter^^S^^Psticas
@@ -1463,6 +1519,9 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 49.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 49.
+
+LaTeX Warning: Citation `React' on page 12 undefined on input line 50.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 63.
 Package babel Info: Redefining spanish shorthand >>
@@ -1487,10 +1546,16 @@ inado jsx, como tambi^^Sen
 
 File: images/cap4/react-virtual-dom.eps Graphic file (type eps)
 <images/cap4/react-virtual-dom.eps>
-Overfull \hbox (12.23184pt too wide) in paragraph at lines 78--80
-[]\OT1/cmr/m/n/14.4 React es ampliamente utilizada por much^^S^^Psimas empresas
- gracias a su capacidad
- []
+
+LaTeX Warning: Citation `ReactVirtualDOM' on page 13 undefined on input line 72
+.
+
+
+LaTeX Warning: Citation `ReactUsers' on page 13 undefined on input line 82.
+
+
+LaTeX Warning: Citation `ReactStyleGuide' on page 13 undefined on input line 85
+.
 
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 92.
@@ -1531,6 +1596,13 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 18.
+
+
+LaTeX Warning: Citation `grunt' on page 14 undefined on input line 22.
+
+
+LaTeX Warning: Citation `gulp' on page 14 undefined on input line 22.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -1539,6 +1611,9 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 38.
+
+LaTeX Warning: Citation `webpack' on page 14 undefined on input line 42.
+
 
 Overfull \hbox (33.2183pt too wide) in paragraph at lines 40--43
 \OT1/cmr/m/n/14.4 modernas. Cuando webpack procesa la aplicaci^^Son, construye 
@@ -1615,10 +1690,9 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 10.
 
-Overfull \hbox (3.61523pt too wide) in paragraph at lines 18--21
-[]\OT1/cmr/m/n/14.4 Este tipo de generadores est^^Saticos tienen un gran auge e
-ntre los desarrolladores
- []
+
+LaTeX Warning: Citation `GeneradoresEstaticos' on page 16 undefined on input li
+ne 15.
 
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 27.
@@ -1628,7 +1702,15 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 27.
+
+LaTeX Warning: Citation `Hexo' on page 16 undefined on input line 29.
+
 ))
+Overfull \hbox (41.5216pt too wide) in paragraph at lines 29--341
+\OT1/cmr/m/n/14.4 todo queda enfocado hacia un mismo ecosistema dando una sensa
+ci^^Son de homogeneidad
+ []
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 343.
 Package babel Info: Redefining spanish shorthand >>
@@ -1645,7 +1727,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 343.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 343.
- [16]
+[16]
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 346.
@@ -1665,21 +1747,32 @@ Package babel Info: Redefining spanish shorthand "=
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 7.
  (./chapters/cap5/1-proyecto-base.tex
+
+LaTeX Warning: Citation `TypescriptStarter' on page 17 undefined on input line 
+2.
+
+
 Overfull \hbox (0.58385pt too wide) in paragraph at lines 1--5
 \OT1/cmr/m/n/14.4 NodeJS que gestionara las dependencias. Se ha utilizado como 
 base el repositorio
  []
 
 
-Overfull \hbox (8.8059pt too wide) in paragraph at lines 1--5
+Overfull \hbox (2.35606pt too wide) in paragraph at lines 1--5
 \OT1/cmr/m/n/14.4 de github \OT1/cmr/m/it/14.4 typescript-starter \OT1/cmr/m/n/
 14.4 [[]]. Este proyecto inclu^^S^^Pa las dependencias necesar^^S^^Pas
  []
 
 
-Overfull \hbox (0.78374pt too wide) in paragraph at lines 7--10
-\OT1/cmr/m/n/14.4 dependencias surgi^^So como alternativa a npm[[]]. Al igual q
-ue todos los proyectos
+LaTeX Warning: Citation `yarn' on page 17 undefined on input line 7.
+
+
+LaTeX Warning: Citation `npm' on page 17 undefined on input line 8.
+
+
+Overfull \hbox (35.34496pt too wide) in paragraph at lines 7--10
+[]\OT1/cmr/m/n/14.4 Para gestionar las dependencias se ha utilizado Yarn[[]]. E
+ste gestor de dependencias
  []
 
 
@@ -1733,6 +1826,10 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 16.
+
+
+LaTeX Warning: Citation `Lex' on page 18 undefined on input line 19.
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 Package babel Info: Redefining spanish shorthand <<
@@ -1751,7 +1848,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 48.
- [18])
+[18])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand >>
@@ -1760,8 +1857,11 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 17.
+ (./chapters/cap5/3-migracion-superescalar.tex
 
-(./chapters/cap5/3-migracion-superescalar.tex
+LaTeX Warning: Citation `SIMDE' on page 19 undefined on input line 1.
+
+
 Overfull \hbox (17.70845pt too wide) in paragraph at lines 7--9
 \OT1/cmr/m/n/14.4 caracter^^S^^Psticas del primer lenguaje, como por ejemplo: l
 as estructuras, la sobrecarga
@@ -1779,6 +1879,10 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 Overfull \hbox (23.9017pt too wide) in paragraph at lines 22--23
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
+
+
+LaTeX Warning: Citation `TStringObjects' on page 19 undefined on input line 31.
+
 
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 36.
@@ -1822,59 +1926,75 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 32.
+
+
+LaTeX Warning: Citation `fontawesome' on page 20 undefined on input line 36.
+
+Runaway argument?
+{bootstrap, además de aplicarse la identidad visual de la Universida\ETC.
+! Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.37 
+     
+? q
+OK, entering \batchmode...
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 42.
  [20]
 File: images/cap5/simdenueva1.eps Graphic file (type eps)
-
-<images/cap5/simdenueva1.eps>
+ <images/cap5/simdenueva1.eps>
 File: images/cap5/simdenueva2.eps Graphic file (type eps)
  <images/cap5/simdenueva2.eps>
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 
-Overfull \hbox (3.84868pt too wide) in paragraph at lines 71--73
+LaTeX Warning: Citation `Sass' on page 21 undefined on input line 67.
+
+
+Overfull \hbox (3.84868pt too wide) in paragraph at lines 70--72
 []\OT1/cmr/m/n/14.4 Esta tecnolog^^S^^Pa se interpreta como CSS y a~nade entre 
 m^^Sultiples caracter^^S^^Psticas,
  []
 
+)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 73.
-[21])
+(babel)             in language  on input line 25.
+ [21]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand >>
@@ -1897,7 +2017,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 32.
-(./chapters/cap5/6-migracion-documentacion.tex
+ (./chapters/cap5/6-migracion-documentacion.tex
 Overfull \hbox (5.88687pt too wide) in paragraph at lines 2--5
 []\OT1/cmr/m/n/14.4 La primer ampliaci^^Son ha sido la incorporaci^^Son de docu
 mentaci^^Son del programa.
@@ -1910,34 +2030,38 @@ Overfull \hbox (28.83165pt too wide) in paragraph at lines 2--5
  []
 
 
+LaTeX Warning: Citation `helpdecompiler' on page 22 undefined on input line 14.
+
+
+
 Overfull \hbox (25.23495pt too wide) in paragraph at lines 13--17
 []\OT1/cmr/m/n/14.4 Para recuperar esta documentaci^^Son se ha utilizado una he
 rramientas de extracci^^Son
  []
 
 
-Overfull \hbox (19.98013pt too wide) in paragraph at lines 13--17
-\OT1/cmr/m/n/14.4 enriquecido con la documentaci^^Son y en una carpeta externa 
-el contenido multimedia
+Overfull \hbox (4.74718pt too wide) in paragraph at lines 13--17
+\OT1/cmr/m/n/14.4 denominada Help Decompiler [[]]. Esta herramienta de l^^S^^Pn
+ea de comandos procesa
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 22.
-[22]
+(babel)             in language  on input line 28.
+ [22]
 Overfull \hbox (4.82689pt too wide) in paragraph at lines 35--37
 []\OT1/cmr/m/n/14.4 Al tratarse de un proyecto independiente, si se desea conti
 nuar con el desarrollo
@@ -1957,7 +2081,7 @@ Overfull \hbox (5.25931pt too wide) in paragraph at lines 50--53
  []
 
 File: images/cap5/nueva-documentacion.eps Graphic file (type eps)
-<images/cap5/nueva-documentacion.eps>))
+ <images/cap5/nueva-documentacion.eps>))
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 352.
 Package babel Info: Redefining spanish shorthand >>
@@ -2001,7 +2125,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 355.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 355.
-(./chapters/cap6.tex
+ (./chapters/cap6.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 12.
 Package babel Info: Redefining spanish shorthand >>
@@ -2017,7 +2141,7 @@ e mostraba una notificaci^^Son
  []
 
 File: images/cap6/errorsimde.eps Graphic file (type eps)
-<images/cap6/errorsimde.eps>
+ <images/cap6/errorsimde.eps>
 Overfull \hbox (3.84528pt too wide) in paragraph at lines 23--27
 []\OT1/cmr/m/n/14.4 Adem^^Sas, se muestra la l^^S^^Pnea del error. Esto resulta
  tremendamente importante,
@@ -2045,7 +2169,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 27.
-[25
+ [25
 
 ]
 File: images/cap6/nuevoerrorsimde.eps Graphic file (type eps)
@@ -2058,8 +2182,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 17.
-
-(./chapters/cap6/2-modo-ejecucion-continua.tex
+ (./chapters/cap6/2-modo-ejecucion-continua.tex
 Overfull \hbox (5.64531pt too wide) in paragraph at lines 10--13
 \OT1/cmr/m/n/14.4 la depuraci^^Son de errores, y a las distintas optimizaciones
 , hacen que se desperdicie
@@ -2102,7 +2225,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 15.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 15.
-[26]))
+ [26]))
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 361.
 Package babel Info: Redefining spanish shorthand >>
@@ -2129,7 +2252,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 364.
-(./chapters/cap7.tex
+ (./chapters/cap7.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand >>
@@ -2138,6 +2261,9 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 4.
+
+LaTeX Warning: Citation `NuevaURLSimde' on page 28 undefined on input line 8.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand >>
@@ -2168,7 +2294,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 44.
-[28
+ [28
 
 ]
 Overfull \hbox (0.52733pt too wide) in paragraph at lines 45--51
@@ -2227,7 +2353,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 373.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 373.
-(./chapters/cap8.tex
+ (./chapters/cap8.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 6.
 Package babel Info: Redefining spanish shorthand >>
@@ -2266,7 +2392,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 44.
-[30
+ [30
 
 ]
 Overfull \hbox (33.84499pt too wide) in paragraph at lines 45--51
@@ -2307,7 +2433,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 382.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 382.
-(./chapters/cap9.tex (./tables/presupuesto.tex))
+ (./chapters/cap9.tex (./tables/presupuesto.tex))
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 390.
 Package babel Info: Redefining spanish shorthand >>
@@ -2376,7 +2502,7 @@ Package babel Info: Redefining spanish shorthand "=
 (babel)             in language  on input line 159.
 Package babel Info: Redefining spanish shorthand "~
 (babel)             in language  on input line 159.
-[34])
+ [34])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 402.
@@ -2401,15 +2527,21 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 402.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
 Package rerunfilecheck Info: File `memtfg.out' has not changed.
 (rerunfilecheck)             Checksum: 0286C90302048FF7FC5B2067722C786F;3455.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
  ) 
 Here is how much of TeX's memory you used:
- 8597 strings out of 494954
- 122587 string characters out of 6181004
- 244301 words of memory out of 5000000
+ 8589 strings out of 494954
+ 122499 string characters out of 6181004
+ 240700 words of memory out of 5000000
  11649 multiletter control sequences out of 15000+600000
  12067 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,10n,60p,290b,1756s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on memtfg.dvi (45 pages, 171468 bytes).
+Output written on memtfg.dvi (44 pages, 138064 bytes).
